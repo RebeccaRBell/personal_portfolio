@@ -67,10 +67,10 @@ sans-serif; */
         
 }
 .initial-backing {
-        width: 500px;
-        height: 500px;
+        width: 450px;
+        height: 450px;
         margin: 0 auto;
-        border-radius: 50%;
+        border-radius: 100%;
         background-color: rgb(38, 38, 38);
         position: relative;
         align-self: center;
