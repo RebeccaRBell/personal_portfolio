@@ -5,6 +5,9 @@ const AboutContainer = () => {
   return (
     <div>
     <NavBar />
+    <div>
+      <h1>About Me</h1>
+    </div>
     </div>
   )
 }
