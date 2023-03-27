@@ -4,6 +4,7 @@ import AboutContainer from './AboutContainer';
 import ContactContainer from './ContactContainer';
 import ProjectContainer from './ProjectContainer';
 import HomepageContainer from './HomepageContainer';
+import CVContainer from './CVContainer';
 import './MainContainer.css';
 
 
@@ -16,6 +17,7 @@ const MainContainer = () => {
         <Route path="/projects" element={<ProjectContainer />} />
         <Route path="/about" element={<AboutContainer />} />
         <Route path="/contact" element={<ContactContainer />} />
+        <Route path="/cv" element={<CVContainer />} />
     </Routes>
     </Router>
     </div>

@@ -71,6 +71,9 @@ sans-serif; */
         flex-flow: column nowrap;
         justify-content: space-evenly;
 }
+.right-column h2{
+        font-weight: 500;
+}
 .project-link{
 
 }
