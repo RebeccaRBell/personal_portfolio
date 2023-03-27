@@ -7,7 +7,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPencil, faCircleUser, faPhone} from '@fortawesome/free-solid-svg-icons';
 
-import { ReactDOM } from 'react';
 
 library.add(faS, faPencil, faCircleUser, faPhone);
 

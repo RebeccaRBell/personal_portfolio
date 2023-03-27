@@ -18,7 +18,7 @@ sans-serif; */
         display: flex;
         justify-content: center;
         animation-name: opening;
-        animation-duration: 5s;
+        animation-duration: 3s;
         animation-fill-mode: forwards;
 
 
@@ -49,7 +49,7 @@ sans-serif; */
         font-family: 'Gruppo',cursive;
         font-size: 200px;
         animation-name: r;
-        animation-duration: 5s;
+        animation-duration: 3s;
         position: relative;
         text-align: center;
         left: 2%;
@@ -59,7 +59,7 @@ sans-serif; */
         font-family: 'Gruppo', cursive;
         font-size: 200px;
         animation-name: b;
-        animation-duration: 5s;
+        animation-duration: 3s;
         position: relative;
         text-align: center;
         right: 2%;
@@ -79,7 +79,7 @@ sans-serif; */
         flex-direction: column nowrap;
         justify-content: center;
         animation-name: circle-back;
-        animation-duration: 5s;
+        animation-duration: 3s;
 
 
 
