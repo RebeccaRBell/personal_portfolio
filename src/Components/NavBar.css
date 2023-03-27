@@ -21,9 +21,9 @@ sans-serif; */
 }
 .name-logo{
         font-size: 60px;
-        font-family: 'Gruppo',
-                        cursive;
-        font-weight: 400;
+font-family: 'Poppins',
+                sans-serif;
+        font-weight: 100;
         display: flex;
         flex-flow: row nowrap;
         margin-left: 50px;

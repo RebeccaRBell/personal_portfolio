@@ -8,13 +8,91 @@ font-family: 'Red Hat Text',
 sans-serif; */
 
 .homepage-container{
+        height: 100vh;
+        width: 100%;
         position: relative;
         z-index: 1;
         top: 0px;
-        font-family: 'Red Hat Text',
-                        sans-serif;
+        font-family: 'Poppins', sans-serif;
+
 }
-.columns {
+.intro {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+
+}
+.intro .link {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.799);
+        font-size: 30px;
+}
+.left-column{
+        width: 65%;
+        font-family: 'Poppins', sans-serif;
+        
+}
+.homepage-container h1 {
+        font-weight: 100;
+        font-size: 100px;
+        padding: 0px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+}
+.homepage-container h3 {
+        font-weight: 300;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 auto;
+
+
+}
+.description-box {
+        width: 70%;
+        height: 500px;
+        background-color:rgba(0, 0, 0, 0.912);
+        margin: 0 auto;
+        margin-top: 100px;
+        border-radius: 20px;
+        padding: 20px;
+}
+.description-box p {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 100;
+}
+.right-column{
+        height: 90vh;
+        margin: 0 auto;
+        width: 35%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+}
+.project-link{
+
+}
+.project-link .fa-pencil{
+        font-size: 40px;
+}
+ .link:hover{
+ text-decoration: underline wavy orange;
+}
+
+.about-link{
+
+}
+
+.contact-link{
+
+}
+
+.contact-link .fa-phone{
+        font-size: 40px;
+}
+/* .columns {
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
@@ -87,8 +165,7 @@ sans-serif; */
 }
 
 .fa-pencil {
-        color: rgb(255, 166, 0);
-        font-size: 250px;
+        font-size: 25px;
         opacity: 0.2;
 }
 .fa-circle-user{
@@ -98,10 +175,10 @@ sans-serif; */
 }
 .fa-phone{
         color: rgb(255, 166, 0);
-                font-size: 250px;
+                font-size: 25px;
                 opacity: 0.2;
 }
 
 .contact-square{
         font-size: 50px;
-}
+} */
