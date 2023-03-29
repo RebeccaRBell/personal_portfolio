@@ -2,17 +2,18 @@
 cursive;
 font-family: 'Mitr',
 sans-serif;
+font-family: 'Montserrat',
+sans-serif;
 font-family: 'Poppins',
 sans-serif;
 font-family: 'Red Hat Text',
 sans-serif; */
-
 .nav-bar {
         width: 100%;
-        height: 100px;
+        height: 120px;
         margin: 0 auto;
         padding: 0px;
-        background-color: rgb(38, 38, 38);
+        background-color:transparent;
         display: flex;
         flex-direction: row nowrap;
         align-items: center;
@@ -22,9 +23,9 @@ sans-serif; */
 
 .name-logo{
         font-size: 60px;
-font-family: 'Poppins',
+font-family: 'Montserrat',
                 sans-serif;
-        font-weight: 100;
+        font-weight: 200;
         display: flex;
         flex-flow: row nowrap;
         margin-left: 50px;
@@ -33,16 +34,15 @@ font-family: 'Poppins',
 }
 .nav-bar a {
         text-decoration: none;
-        color: white;
+        color: var(--background-color);
 }
 .letter-r{
 transform: scale(-1, 1);
 margin-left: 0px;
 }
 .letter-b {
-        margin-left: -10px;
+        margin-left: -18px;
 }
-
 
 .nav-list{
         width: 100%;
@@ -57,11 +57,14 @@ font-family: 'Red Hat Text',
         letter-spacing: 1px;
 }
 .nav-list li {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin: 30px;
         font-size: 25px;
 }
 .nav-list a {
         text-decoration: none;
-        color: white;
+        color: rgb(177, 65, 65);
+}
+ .nav-list .fa-file,  .nav-list .fa-house,  .nav-list .fa-pencil,  .nav-list .fa-circle-user,  .nav-list .fa-square-phone-flip {
+        font-size: 35px;
+        color: rgba(235, 115, 46, 0.782);
 }

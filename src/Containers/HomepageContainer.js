@@ -65,15 +65,25 @@ const HomepageContainer = () => {
     <div className='intro'>
       <h1>Rebecca Bell</h1>
       <h3>Junior Software Developer</h3>
+      <div className='icons'>
+        <div className='project-link' onMouseOver={mouseHoverProject} onMouseLeave={mouseLeaveProject}>
+        <Link to='/projects' className='link'><FontAwesomeIcon icon='fa-solid fa-pencil'/></Link></div>
+          <div className='about-link'onMouseOver={mouseHoverAbout} onMouseLeave={mouseLeaveAbout}>
+           <Link to='/about' className='link'><FontAwesomeIcon icon="fa-solid fa-circle-user" /></Link></div>
+          <div className='cv-link' onMouseOver={mouseHoverCV} onMouseLeave={mouseLeaveCV}>
+           <Link to='/cv' className='link'><FontAwesomeIcon icon="fa-solid fa-file" /></Link></div>
+           <div className='contact-link' onMouseOver={mouseHoverContact} onMouseLeave={mouseLeaveContact} >
+           <Link to='/contact' className='link'><FontAwesomeIcon icon="fa-solid fa-square-phone-flip" /></Link></div>
+      </div>
       <div className='links'>
       <div className='project-link' onMouseOver={mouseHoverProject} onMouseLeave={mouseLeaveProject}>
-      <Link to='/projects' className='link'>{hoverProject  === true ? <h2>Projects</h2>: <FontAwesomeIcon icon='fa-solid fa-pencil'/>}</Link></div>
+      <Link to='/projects' className='link'>{hoverProject  === true ? <h2>Projects</h2>: null}</Link></div>
     <div className='about-link'onMouseOver={mouseHoverAbout} onMouseLeave={mouseLeaveAbout}> 
-    <Link to='/about' className='link'>{hoverAbout === true? <h2>About</h2>: <FontAwesomeIcon icon="fa-solid fa-circle-user" />}</Link></div>
+    <Link to='/about' className='link'>{hoverAbout === true? <h2>About</h2>:null}</Link></div>
     <div className='cv-link' onMouseOver={mouseHoverCV} onMouseLeave={mouseLeaveCV}> 
-    <Link to='/cv' className='link'>{hoverCV === true ? <h2>CV</h2>:  <FontAwesomeIcon icon="fa-solid fa-file" />}</Link></div>
+    <Link to='/cv' className='link'>{hoverCV === true ? <h2>CV</h2>: null}</Link></div>
     <div className='contact-link' onMouseOver={mouseHoverContact} onMouseLeave={mouseLeaveContact} >
-  <Link to='/contact' className='link'>{hoverContact === true ?<h2>Contact</h2>: <FontAwesomeIcon icon="fa-solid fa-square-phone-flip" />}</Link>
+  <Link to='/contact' className='link'>{hoverContact === true ?<h2>Contact</h2>: null}</Link>
     </div>
     </div>
     </div>
