@@ -264,18 +264,18 @@ sans-serif; */
                 .icons .fa-file,
                 .icons .fa-square-phone-flip {
                         color: white;
-                        font-size: 20px;
+                        font-size: 24px;
                 }
         
                 .icons div {
-                        margin: 5px;
+                        margin: 10px;
                 }
         
                 .links {
                         display: flex;
                         flex-flow: row nowrap;
                         justify-content: center;
-                        margin-top: -135px;
+                        margin-top: -110px;
                 }
         
                 .links:hover {
@@ -284,23 +284,26 @@ sans-serif; */
         
                 .links h2 {
                         font-weight: 400;
+                        font-size: 15px;
+                        text-align: center;
                 }
         
                 .links div {
-                        margin: 30px;
+                        margin: 10px;
                 }
         
                 .links .link {
                         text-decoration: none;
                         color: var(--contrast-color);
                         align-self: center;
+
                 }
         
                 .project-link,
                 .about-link,
                 .contact-link,
                 .cv-link {
-                        width: 70px;
+                        width: 50px;
                         height: 100px;
                         display: flex;
                         flex-direction: row nowrap;

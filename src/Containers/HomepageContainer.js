@@ -18,16 +18,8 @@ const HomepageContainer = () => {
   const [hoverAbout, setHoverAbout] = useState(false);
   const [hoverContact, setHoverContact] = useState(false);
   const [hoverCV, setHoverCV] = useState(false);
-  const [hoverHome, setHoverHome] = useState(false);
+  
 
-
-    const mouseHoverHome= () => {
-    setHoverHome(true);
-  }
-
-  const mouseLeaveHome = () => {
-    setHoverHome(false);
-  }
   const mouseHoverProject = () => {
     setHoverProject(true);
   }
