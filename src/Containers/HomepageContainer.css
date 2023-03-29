@@ -31,11 +31,11 @@ sans-serif; */
 
 
 .first-line{
-        height: 900px;
-        width: 5px;
+        height: 700px;
+        width: 3px;
         position: absolute;
         z-index: 2;
-        left: 350px;
+        left: 250px;
         top: 0px;
         background-color: var(--contrast-color);
         animation-name: first-line;
@@ -45,10 +45,10 @@ sans-serif; */
 }
 
 .second-line{
-        height: 5px;
+        height: 3px;
         width: 0px;
         left: 0px;
-        top: 800px;
+        top: 600px;
         position: absolute;
         z-index: 2;
         background-color: var(--contrast-color);
@@ -77,7 +77,7 @@ sans-serif; */
                 }
         100%{
                 opacity: 100%;
-                width: 1700px;
+                width: 1300px;
                 background-color: var(--contrast-color);
         }
 }
@@ -88,11 +88,11 @@ sans-serif; */
 
 .intro h1 {
         font-weight: 100;
-        font-size: 100px;
+        font-size: 75px;
         padding: 0px;
         margin: 0 auto;
         text-align: center;
-        padding-top: 350px;
+        padding-top: 250px;
         color: var(--contrast-color);
         
 }
@@ -101,7 +101,7 @@ sans-serif; */
 
 .intro h3 {
         font-weight: 300;
-        font-size: 28px;
+        font-size: 25px;
         text-align: center;
         margin: 0 auto;
         padding: 0px;
@@ -109,21 +109,7 @@ sans-serif; */
 
 
 }
-.description-box {
-        width: 70%;
-        height: 500px;
-        background-color:rgba(0, 0, 0, 0.912);
-        margin: 0 auto;
-        margin-top: 100px;
-        border-radius: 20px;
-        padding: 20px;
-}
-.description-box p {
-        color: white;
-        font-size: 20px;
-        text-align: center;
-        font-weight: 100;
-}
+
 .icons {
         display: flex;
         flex-flow: row nowrap;
@@ -133,7 +119,7 @@ sans-serif; */
 
 .icons .fa-pencil, .icons .fa-circle-user,  .icons .fa-file,  .icons .fa-square-phone-flip{
         color: white;
-        font-size: 35px;
+        font-size: 27px;
 }
 .icons .fa-pencil:hover{
         color: var(--blue);
@@ -148,7 +134,7 @@ sans-serif; */
         color: var(--green);
 }
 .icons div{
-        margin: 30px;
+        margin: 25px;
 }
 
 .links {
@@ -162,10 +148,10 @@ sans-serif; */
 }
 .links h2{
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
 }
 .links div {
-        margin: 30px;
+        margin: 25px;
 }
 .links .link {
         text-decoration: none;
