@@ -1,51 +1,85 @@
 import React, { useState } from 'react'
 import './HomepageContainer.css';
+import Footer from '../Components/Footer';
 import { Link } from 'react-router-dom';
+import { faS } from '@fortawesome/free-solid-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPencil, faHand, faPhone, faHome, faCircleUser, faFile, faSquarePhoneFlip} from '@fortawesome/free-solid-svg-icons';
+
+
+
+library.add(faS, faPencil, faHand, faPhone, faHome, faCircleUser, faFile, faSquarePhoneFlip);
+
 
 const HomepageContainer = () => {
 
- 
+  const [hoverProject , setHoverProject] = useState(false);
+  const [hoverAbout, setHoverAbout] = useState(false);
+  const [hoverContact, setHoverContact] = useState(false);
+  const [hoverCV, setHoverCV] = useState(false);
+  const [hoverHome, setHoverHome] = useState(false);
+
+
+    const mouseHoverHome= () => {
+    setHoverHome(true);
+  }
+
+  const mouseLeaveHome = () => {
+    setHoverHome(false);
+  }
+  const mouseHoverProject = () => {
+    setHoverProject(true);
+  }
+
+  const mouseLeaveProject = () => {
+    setHoverProject(false);
+  }
+  const mouseHoverAbout= () => {
+    setHoverAbout(true);
+  }
+
+  const mouseLeaveAbout = () => {
+    setHoverAbout(false);
+  }
+  const mouseHoverCV= () => {
+    setHoverCV(true);
+  }
+
+  const mouseLeaveCV = () => {
+    setHoverCV(false);
+  }
+  const mouseHoverContact= () => {
+    setHoverContact(true);
+  }
+
+  const mouseLeaveContact = () => {
+    setHoverContact(false);
+  }
+
 
   return (
     <div className='homepage-container'>
-   
+    <div className='first-line'></div>
+    <div className='second-line'></div>
     <div className='intro'>
-    <div className='left-column'>
       <h1>Rebecca Bell</h1>
       <h3>Junior Software Developer</h3>
-      <div className='description-box'>
-       <p>I'm Becca and I'm a Junior Software Developer based in Glasgow, Scotland. <br/>
-       Currently in my final weeks of CodeClan's Professional Software Development course, I'm searching for my first Developer position.</p>
-      </div>
-      </div>
-      <div className='right-column'>
-      <div className='project-link'>
-    <Link to='/projects' className='link'><h2>Projects</h2></Link> </div>
-    <div className='about-link'> 
-    <Link to='/about' className='link'><h2>About</h2></Link></div>
-    <div className='cv-link'> 
-    <Link to='/cv' className='link'><h2>CV</h2></Link></div>
-    <div className='contact-link' >
-  <Link to='/contact' className='link'><h2>Contact Me</h2></Link>
+      <div className='links'>
+      <div className='project-link' onMouseOver={mouseHoverProject} onMouseLeave={mouseLeaveProject}>
+      <Link to='/projects' className='link'>{hoverProject  === true ? <h2>Projects</h2>: <FontAwesomeIcon icon='fa-solid fa-pencil'/>}</Link></div>
+    <div className='about-link'onMouseOver={mouseHoverAbout} onMouseLeave={mouseLeaveAbout}> 
+    <Link to='/about' className='link'>{hoverAbout === true? <h2>About</h2>: <FontAwesomeIcon icon="fa-solid fa-circle-user" />}</Link></div>
+    <div className='cv-link' onMouseOver={mouseHoverCV} onMouseLeave={mouseLeaveCV}> 
+    <Link to='/cv' className='link'>{hoverCV === true ? <h2>CV</h2>:  <FontAwesomeIcon icon="fa-solid fa-file" />}</Link></div>
+    <div className='contact-link' onMouseOver={mouseHoverContact} onMouseLeave={mouseLeaveContact} >
+  <Link to='/contact' className='link'>{hoverContact === true ?<h2>Contact</h2>: <FontAwesomeIcon icon="fa-solid fa-square-phone-flip" />}</Link>
     </div>
-      </div>
     </div>
-    {/* <div className='squares'>
-    <Link to='/projects' className='link'>
-    <div className='projects-square square' onMouseOver={mouseHoverProject} onMouseOut={mouseLeaveProject}>
-    {hoverProject  === false ? <FontAwesomeIcon icon="fa-solid fa-pencil" /> : <h3>Projects</h3>}
-    </div></Link>
-    <Link to='/about' className='link'>
-    <div className='about-square square' onMouseOver={mouseHoverAbout} onMouseOut={mouseLeaveAbout}>
-    {hoverAbout === false ? <FontAwesomeIcon icon="fa-regular fa-circle-user" /> : <h3>About</h3>}
-    </div></Link>
-  <Link to='/contact' className='link'><div className='contact-square square' onMouseOver={mouseHoverContact} onMouseOut={mouseLeaveContact}> 
-  {hoverContact === false ? <h3>Contact</h3>
-    :<h3>Contact<span><FontAwesomeIcon icon="fa-solid fa-phone" /></span></h3>}
-    </div></Link>
-  </div> */ }
-    
     </div>
+<Footer />
+  </div> 
+  
   )
 }
 

@@ -1,3 +1,4 @@
+
 /* font-family: 'Gruppo',
 cursive;
 font-family: 'Poppins',
@@ -6,4 +7,5 @@ sans-serif;*/
 
 .App{
         margin: 0 auto;
+        padding: 0px;
 }

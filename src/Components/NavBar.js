@@ -11,7 +11,8 @@ library.add(faS, faPencil, faHand, faPhone, faHome);
 
 
 const NavBar = () => {
-   const [hoverProject , setHoverProject] = useState(false);
+
+    const [hoverProject , setHoverProject] = useState(false);
   const [hoverAbout, setHoverAbout] = useState(false);
   const [hoverContact, setHoverContact] = useState(false);
   const [hoverCV, setHoverCV] = useState(false);
@@ -54,12 +55,13 @@ const NavBar = () => {
     setHoverContact(false);
   }
 
+
   return (
     <div className='nav-bar'>
    <Link to='/'> <div className='name-logo'><p className='letter-r'>R</p><p className='letter-b'>B</p></div></Link>
         <ul className='nav-list'>
-                <li>{hoverHome === true ? <Link to='/'  onMouseOver={mouseHoverHome} onMouseOut={mouseLeaveHome}>Home</Link>: <FontAwesomeIcon icon='fa-regular fa-home' />}</li>
-                <li><Link to='/projects'  onMouseOver={mouseHoverProject} onMouseOut={mouseLeaveProject}>Projects</Link></li>
+                <li onMouseOver={mouseHoverHome} onMouseLeave={mouseLeaveHome}>{hoverHome === true ?<Link to='/'>Home</Link> : <Link to='/'><FontAwesomeIcon icon="fa-regular fa-house" /></Link>}</li>
+                <li  onMouseOver={mouseHoverProject} onMouseOut={mouseLeaveProject}>{hoverProject === true ?<Link to='/projects' >Projects</Link>: <Link to='/projects'><FontAwesomeIcon icon='face-regular fa-pencil'/></Link>}</li>
                 <li><Link to='/about'  onMouseOver={mouseHoverAbout} onMouseOut={mouseLeaveAbout}>About</Link></li>
                 <li><Link to='/cv'  onMouseOver={mouseHoverCV} onMouseOut={mouseLeaveCV}>About</Link></li>
                 <li><Link to='/contact'  onMouseOver={mouseHoverContact} onMouseOut={mouseLeaveContact}>Contact</Link></li>

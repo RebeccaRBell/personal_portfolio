@@ -1,0 +1,13 @@
+:root {
+        --background-color: rgb(18, 18, 18);
+        --contrast-color: rgb(220, 220, 220);
+}
+
+.footer-container{
+width: 100%;
+height: 40px;
+position: absolute;
+bottom: 0px;
+text-align: center;
+color: var(--contrast-color);
+}

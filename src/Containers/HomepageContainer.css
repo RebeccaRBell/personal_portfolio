@@ -6,45 +6,109 @@ font-family: 'Poppins',
 sans-serif;
 font-family: 'Red Hat Text',
 sans-serif; */
+:root {
+        --background-color: rgb(18, 18, 18);
+        --contrast-color: rgb(220, 220, 220);
+}
 
 .homepage-container{
-        height: 100vh;
+        height: 110vh;
         width: 100%;
         position: relative;
         z-index: 1;
         top: 0px;
         font-family: 'Poppins', sans-serif;
+        background-color: var(--background-color);
+        padding: 0px;
+        margin: 0 auto;
+        animation-name: homepage-container;
+        animation-duration: 3s;
 
+
+}
+@keyframes homepage-container {
+        0%{
+                background-color: var(--background-color);
+        }
+        50%{
+                background-color: var(--background-color);
+        }
+        100%{
+                /* background-color: var(--contrast-color); */
+}
+}
+
+.first-line{
+        height: 0px;
+        width: 5px;
+        position: absolute;
+        z-index: 2;
+        left: 350px;
+        top: 0px;
+        background-color: var(--contrast-color);
+        animation-name: first-line;
+        animation-duration: 3s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+}
+@keyframes first-line {
+        0%{
+                opacity: 0%;
+               background-color: var(--contrast-color)
+        }
+        100%{
+                opacity: 100%;
+                height: 1000px;
+                background-color: #7cac6a;
+        }
+}
+.second-line{
+        height: 5px;
+        width: 0px;
+        left: 0px;
+        top: 900px;
+        position: absolute;
+        z-index: 2;
+        background-color: var(--contrast-color);
+        animation-name: second-line;
+        animation-duration: 3s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+}
+
+@keyframes second-line {
+        0%{
+                opacity: 0%;
+                background-color: var(--contrast-color);
+        }
+        100%{
+                opacity: 100%;
+                width: 1700px;
+                background-color: #7fa96a;
+        }
 }
 .intro {
         width: 100%;
-        display: flex;
-        flex-flow: row nowrap;
 
 }
-.intro .link {
-        text-decoration: none;
-        color: rgba(0, 0, 0, 0.799);
-        font-size: 30px;
-}
-.left-column{
-        width: 65%;
-        font-family: 'Poppins', sans-serif;
-        
-}
-.homepage-container h1 {
+
+.intro h1 {
         font-weight: 100;
         font-size: 100px;
         padding: 0px;
         margin: 0 auto;
         text-align: center;
-        margin-top: 50px;
+        padding-top: 400px;
+        color: var(--contrast-color);
+        
 }
-.homepage-container h3 {
+.intro h3 {
         font-weight: 300;
         font-size: 25px;
         text-align: center;
         margin: 0 auto;
+        padding: 0px;
+        color: var(--contrast-color);
 
 
 }
@@ -63,25 +127,38 @@ sans-serif; */
         text-align: center;
         font-weight: 100;
 }
-.right-column{
-        height: 90vh;
-        margin: 0 auto;
-        width: 35%;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-evenly;
+.links .fa-pencil, .links .fa-circle-user, .fa-file, .fa-square-phone-flip{
+        color: white;
+        font-size: 35px;
 }
-.right-column h2{
-        font-weight: 500;
-}
-.project-link{
 
+.links{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin-top: 30px;
 }
-.project-link .fa-pencil{
-        font-size: 40px;
+.links h2{
+        font-weight: 400;
 }
- .link:hover{
- text-decoration: underline wavy orange;
+.links div {
+        margin: 40px;
+}
+.links .link {
+        text-decoration: none;
+        color: var(--contrast-color);
+        align-self: center;
+}
+.project-link, .about-link, .contact-link, .cv-link{
+       width: 70px;
+       height: 100px;
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: center;
+        margin: 0 auto;
+}
+.link:hover{
+      color: orange;
 }
 
 .about-link{
@@ -95,93 +172,3 @@ sans-serif; */
 .contact-link .fa-phone{
         font-size: 40px;
 }
-/* .columns {
-        width: 100%;
-        display: flex;
-        flex-flow: row nowrap;
-}
-.column-one {
-        width: 50%;
-}
-.intro {
-        width: 100%;
-        font-family: 'Red Hat Text',
-                        sans-serif;
-        text-align: center;
-        padding: 50px 0px 50px 0px;
-        margin: 0 auto;
-}
-.intro h1{
-        font-family: 'Poppins',
-                        sans-serif;
-                        font-weight: 100;
-        font-size: 90px;
-        margin: 0 auto;
-}
-.intro h3 {
-        font-size: 30px;
-        margin: 0 auto;
-        font-weight: 100;
-        letter-spacing: 2px;
-}
-.column-two {
-        width: 50%;
-
-}
-.squares {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-
-}
-.square {
-        height: 400px;
-        width: 400px;
-        border: 3px solid rgb(18, 18, 18);
-        border-radius: 5px;
-        margin: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}
-.squares .link {
-        text-decoration: none;
-        color: black;
-}
-.square p {
-        font-size: 25px;
-}
-.about-square{
-
-
-}
-
-.about-square:hover{
-
-}
-
-.projects-square{
-        font-size: 50px;
-}
-.projects-square:hover{
-
-}
-
-.fa-pencil {
-        font-size: 25px;
-        opacity: 0.2;
-}
-.fa-circle-user{
-        color: rgb(255, 166, 0);
-                font-size: 250px;
-                opacity: 0.2;
-}
-.fa-phone{
-        color: rgb(255, 166, 0);
-                font-size: 25px;
-                opacity: 0.2;
-}
-
-.contact-square{
-        font-size: 50px;
-} */
