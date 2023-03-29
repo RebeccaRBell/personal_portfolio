@@ -9,6 +9,10 @@ sans-serif; */
 :root {
         --background-color: rgb(18, 18, 18);
         --contrast-color: rgb(220, 220, 220);
+        --blue: rgb(102, 153, 184);
+        --pink: rgb(197, 87, 87);
+        --orange: rgb(247, 137, 73);
+        
 }
 
 .homepage-container{
@@ -21,25 +25,12 @@ sans-serif; */
         background-color: var(--background-color);
         padding: 0px;
         margin: 0 auto;
-        animation-name: homepage-container;
-        animation-duration: 3s;
-
 
 }
-@keyframes homepage-container {
-        0%{
-                background-color: var(--background-color);
-        }
-        50%{
-                background-color: var(--background-color);
-        }
-        100%{
-                /* background-color: var(--contrast-color); */
-}
-}
+
 
 .first-line{
-        height: 0px;
+        height: 900px;
         width: 5px;
         position: absolute;
         z-index: 2;
@@ -48,63 +39,45 @@ sans-serif; */
         background-color: var(--contrast-color);
         animation-name: first-line;
         animation-duration: 3s;
-        animation-delay: 0.5s;
+        animation-delay: 1s;
         animation-fill-mode: forwards;
 }
-@keyframes first-line {
-        0%{
-                opacity: 0%;
-               background-color: var(--contrast-color)
-        }
-        25% { 
-                background-color: orange;
-         }
-        
-         50% {
-         background-color: rgb(102, 153, 184);
-        }
-        
- 75% {
-                background-color: rgb(197, 87, 87);
-          }
-        100%{
-                opacity: 100%;
-                height: 1000px;
-                background-color: #8fc17d;
-        }
-}
+
 .second-line{
         height: 5px;
         width: 0px;
         left: 0px;
-        top: 900px;
+        top: 800px;
         position: absolute;
         z-index: 2;
         background-color: var(--contrast-color);
         animation-name: second-line;
         animation-duration: 3s;
-        animation-delay: 3s;
+        animation-delay: 4s;
         animation-fill-mode: forwards;
 }
 
+
 @keyframes second-line {
         0%{
-                opacity: 0%;
+                opacity: 100%;
                 background-color: var(--contrast-color);
         }
-        25%{
-                background-color: orange;
-        }
-        50%{
-                background-color: rgb(102, 153, 184);
-        }
-        75%{
-                background-color: rgb(197, 87, 87);
-        }
+                25% {
+                background-color: var(--orange);
+                }
+        
+                50% {
+                background-color: var(--blue)
+                }
+        
+                75% {
+                        background-color: var(--pink);
+                }
         100%{
                 opacity: 100%;
                 width: 1700px;
-                background-color: #7fa96a;
+                background-color: var(--contrast-color);
         }
 }
 .intro {
@@ -122,23 +95,6 @@ sans-serif; */
         color: var(--contrast-color);
         
 }
-.intro h1:hover{
-        animation-name: headerhover;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-}
-
-@keyframes headerhover {
-        0%{
-                color: var(--contrast-color);
-        }
-        50% {
-                        color: rgb(197, 87, 87);
-                        }
-                        100%{
-                                color: var(--contrast-color);
-                        }
-        }
 
 
 
@@ -208,4 +164,147 @@ sans-serif; */
         flex-direction: row nowrap;
         justify-content: center;
         margin: 0 auto;
+}
+
+
+
+
+@media (max-width: 600px) {
+        .homepage-container {
+                        height: 110vh;
+                        width: 100%;
+                        position: relative;
+                        z-index: 1;
+                        top: 0px;
+                }
+        
+        
+                .first-line {
+                        height: 800px;
+                        width: 2px;
+                        position: absolute;
+                        z-index: 2;
+                        left: 40px;
+                        top: 0px;
+
+                }
+        
+                .second-line {
+                        height: 2px;
+                        width: 0px;
+                        left: 0px;
+                        top: 600px;
+ 
+                }
+        
+        
+                @keyframes second-line {
+                        0% {
+                                opacity: 100%;
+                                background-color: var(--contrast-color);
+                        }
+        
+                        25% {
+                                background-color: var(--orange);
+                        }
+        
+                        50% {
+                                background-color: var(--blue)
+                        }
+        
+                        75% {
+                                background-color: var(--pink);
+                        }
+        
+                        100% {
+                                opacity: 100%;
+                                width: 370px;
+                                background-color: var(--contrast-color);
+                        }
+                }
+        
+                .intro {
+                        width: 100%;
+        
+                }
+        
+                .intro h1 {
+                        font-weight: 100;
+                        font-size: 40px;
+                        padding: 0px;
+                        margin: 0 auto;
+                        text-align: center;
+                        padding-top: 350px;
+                        color: var(--contrast-color);
+        
+                }
+        
+        
+        
+                .intro h3 {
+                        font-weight: 300;
+                        font-size: 18px;
+                        text-align: center;
+                        margin: 0 auto;
+                        padding: 0px;
+                        color: var(--contrast-color);
+        
+        
+                }
+
+                .icons {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: center;
+                        margin-top: 40px;
+                }
+        
+                .icons .fa-pencil,
+                .icons .fa-circle-user,
+                .icons .fa-file,
+                .icons .fa-square-phone-flip {
+                        color: white;
+                        font-size: 20px;
+                }
+        
+                .icons div {
+                        margin: 5px;
+                }
+        
+                .links {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: center;
+                        margin-top: -135px;
+                }
+        
+                .links:hover {
+                        cursor: pointer;
+                }
+        
+                .links h2 {
+                        font-weight: 400;
+                }
+        
+                .links div {
+                        margin: 30px;
+                }
+        
+                .links .link {
+                        text-decoration: none;
+                        color: var(--contrast-color);
+                        align-self: center;
+                }
+        
+                .project-link,
+                .about-link,
+                .contact-link,
+                .cv-link {
+                        width: 70px;
+                        height: 100px;
+                        display: flex;
+                        flex-direction: row nowrap;
+                        justify-content: center;
+                        margin: 0 auto;
+                }
 }
