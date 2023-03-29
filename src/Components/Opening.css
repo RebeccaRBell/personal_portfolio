@@ -54,8 +54,8 @@ sans-serif; */
 .r {
 font-family: 'Montserrat',
                 sans-serif;
-        font-weight: 200;
-        font-size: 200px;
+        font-weight: 100;
+        font-size: 150px;
         animation-name: r;
         animation-duration: 4s;
         position: relative;
@@ -66,8 +66,8 @@ font-family: 'Montserrat',
 .b {
 font-family: 'Montserrat',
                 sans-serif;
-        font-weight: 200;
-        font-size: 200px;
+        font-weight: 100;
+        font-size: 150px;
         animation-name: b;
         animation-duration: 4s;
         position: relative;
@@ -77,12 +77,12 @@ font-family: 'Montserrat',
         
 }
 .initial-backing {
-        width: 450px;
-        height: 450px;
+        width: 350px;
+        height: 350px;
         margin: 0 auto;
         border-radius: 100%;
         background-color: var(--background-color);
-        border: 5px solid var(--contrast-color);
+        border: 3px solid var(--contrast-color);
         position: relative;
         align-self: center;
         align-items: center;

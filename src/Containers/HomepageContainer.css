@@ -313,9 +313,9 @@ sans-serif; */
                 }
 }
 
-@media (min-width: 2000px){
+@media (min-width: 1600px){
         .first-line {
-                        height: 1100px;
+                        height: 900px;
                         width: 2px;
                         position: absolute;
                         z-index: 2;
@@ -328,7 +328,7 @@ sans-serif; */
                         height: 2px;
                         width: 0px;
                         left: 0px;
-                        top: 900px;
+                        top: 700px;
         
                 }
 
@@ -353,7 +353,7 @@ sans-serif; */
         
                         100% {
                                 opacity: 100%;
-                                width: 2070px;
+                                width: 1700px;
                                 background-color: var(--contrast-color);
                         }
                 }
