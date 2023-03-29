@@ -10,8 +10,9 @@ sans-serif; */
         --background-color: rgb(18, 18, 18);
         --contrast-color: rgb(220, 220, 220);
         --blue: rgb(102, 153, 184);
-        --pink: rgb(197, 87, 87);
-        --orange: rgb(247, 137, 73);
+        --pink: rgb(197, 87, 118);
+        --orange: rgb(216, 115, 57);
+        --green: rgb(111, 181, 118);
         
 }
 
@@ -129,9 +130,22 @@ sans-serif; */
         justify-content: center;
         margin-top: 40px;
 }
+
 .icons .fa-pencil, .icons .fa-circle-user,  .icons .fa-file,  .icons .fa-square-phone-flip{
         color: white;
         font-size: 35px;
+}
+.icons .fa-pencil:hover{
+        color: var(--blue);
+}
+.icons .fa-circle-user:hover{
+        color: var(--orange);
+}
+.icons .fa-file:hover {
+        color: var(--pink);
+}
+.icons .fa-square-phone-flip:hover{
+        color: var(--green);
 }
 .icons div{
         margin: 30px;
@@ -148,6 +162,7 @@ sans-serif; */
 }
 .links h2{
         font-weight: 400;
+        font-size: 20px;
 }
 .links div {
         margin: 30px;
@@ -270,7 +285,7 @@ sans-serif; */
                 .icons div {
                         margin: 10px;
                 }
-        
+  
                 .links {
                         display: flex;
                         flex-flow: row nowrap;
@@ -310,4 +325,51 @@ sans-serif; */
                         justify-content: center;
                         margin: 0 auto;
                 }
+}
+
+@media (min-width: 2000px){
+        .first-line {
+                        height: 1100px;
+                        width: 2px;
+                        position: absolute;
+                        z-index: 2;
+                        left: 340px;
+                        top: 0px;
+        
+                }
+        
+                .second-line {
+                        height: 2px;
+                        width: 0px;
+                        left: 0px;
+                        top: 900px;
+        
+                }
+
+                       
+                @keyframes second-line {
+                        0% {
+                                opacity: 100%;
+                                background-color: var(--contrast-color);
+                        }
+        
+                        25% {
+                                background-color: var(--orange);
+                        }
+        
+                        50% {
+                                background-color: var(--blue)
+                        }
+        
+                        75% {
+                                background-color: var(--pink);
+                        }
+        
+                        100% {
+                                opacity: 100%;
+                                width: 2070px;
+                                background-color: var(--contrast-color);
+                        }
+                }
+        
 }

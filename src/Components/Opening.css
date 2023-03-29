@@ -125,6 +125,7 @@ font-family: 'Montserrat',
                 transform: scale(-1, 1);
                         left: 6%;
                         opacity: 100%;
+                        color: var(--contrast-color)
         }
 
         100%{
@@ -147,6 +148,7 @@ font-family: 'Montserrat',
                 60%{
                         right: 6%;
                         opacity: 100%;
+                        color: var(--contrast-color);
                 }
         
                 100% {
