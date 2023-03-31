@@ -3,8 +3,15 @@
 cursive;
 font-family: 'Poppins',
 sans-serif;*/
-
-
+:root{
+                --background-color: rgb(18, 18, 18);
+                --contrast-color: rgb(220, 220, 220);
+                --blue: rgb(102, 153, 184);
+                --pink: rgb(197, 87, 118);
+                --orange: rgb(216, 115, 57);
+                --green: rgb(111, 181, 118);
+                --yellow: rgb(243, 213, 63);
+}
 .App{
         margin: 0 auto;
         padding: 0px;

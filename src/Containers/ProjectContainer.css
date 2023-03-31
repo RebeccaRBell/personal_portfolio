@@ -2,19 +2,95 @@
 cursive;
 font-family: 'Mitr',
 sans-serif;
+font-family: 'Montserrat',
+sans-serif;
 font-family: 'Poppins',
 sans-serif;
 font-family: 'Red Hat Text',
 sans-serif; */
+:root {
+        --background-color: rgb(18, 18, 18);
+        --contrast-color: rgb(220, 220, 220);
+        --blue: rgb(102, 153, 184);
+        --pink: rgb(197, 87, 118);
+        --orange: rgb(216, 115, 57);
+        --green: rgb(111, 181, 118);
+        --yellow: rgb(243, 213, 63);
+}
 
 .project-container{
 font-family: 'Red Hat Text',
                 sans-serif;
+                background-color: var(--background-color);
+                height: 100%;
+                width: 100%;
 
 }
 
-.project-container h1 {
-font-weight: 400;
+/* .project-container h1 {
+font-weight: 300;
+margin-top: -20px;
 text-align: center;
-font-size: 50px;
+font-size: 35px;
+color: var(--contrast-color);
+padding: 20px 20px 30px 20px;
+border-radius: 5px;
+font-family: 'Montserrat',
+                sans-serif;
+
+} */
+.projects {
+        width: 80%;
+        margin: 0 auto;
+}
+.project{
+        background-color: var(--contrast-color);
+        margin-top: 40px;
+        border-radius: 15px;
+       
+}
+.project video {
+        width: 50%;
+        border-radius: 15px;
+}
+.project-one {
+        display: flex;
+        flex-flow: row nowrap;
+        border: 3px solid var(--orange);
+        border-radius: 15px;
+        padding: 30px;
+}
+.project-one-text{
+        width: 100%;
+        text-align: right;
+        padding: 20px;
+}
+.project-one-text h3{
+        font-size: 25px;
+        color: var(--orange);
+}
+.project ul {
+        list-style-type: none;
+}
+.project-two {
+        display: flex;
+        flex-flow: row nowrap;
+        border: 3px solid var(--green);
+        border-radius: 15px;
+        padding: 30px;
+}
+
+.project-two-text {
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+}
+
+.project-two-text h3 {
+        font-size: 25px;
+        color: var(--green);
+}
+
+.project ul {
+        list-style-type: none;
 }

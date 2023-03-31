@@ -60,11 +60,11 @@ const NavBar = () => {
     <div className='nav-bar'>
    <Link to='/'> <div className='name-logo'><p className='letter-r'>R</p><p className='letter-b'>B</p></div></Link>
         <ul className='nav-list'>
-                <li onMouseOver={mouseHoverHome} onMouseLeave={mouseLeaveHome}><Link to='/'>{hoverHome === true ? <p className='text'>Home</p> : <p><FontAwesomeIcon icon="fa-solid fa-house" /></p>}</Link></li>
-                <li  onMouseOver={mouseHoverProject} onMouseOut={mouseLeaveProject}><Link to='/projects' >{hoverProject === true ?<p className='text'>Projects</p>: <p><FontAwesomeIcon icon='fa-solid fa-pencil'/></p>}</Link></li>
-                <li onMouseOver={mouseHoverAbout} onMouseOut={mouseLeaveAbout}><Link to ='/about'>{hoverAbout === true ? <p className='text'>About</p>: <p><FontAwesomeIcon icon='fa-solid fa-circle-user'/></p>}</Link></li>
-                <li  onMouseOver={mouseHoverCV} onMouseOut={mouseLeaveCV}><Link to='/cv'>{hoverCV === true ? <p className='text'>CV</p>:<p><FontAwesomeIcon icon='fa-solid fa-file'/></p>}</Link></li>
-                 <li  onMouseOver={mouseHoverContact} onMouseOut={mouseLeaveContact}><Link to='/contact'>{hoverContact === true ? <p className='text'>Contact</p>:<p><FontAwesomeIcon icon='fa-solid fa-square-phone-flip'/></p>}</Link></li>
+                <li><Link to='/'><FontAwesomeIcon icon="fa-solid fa-house" /></Link></li>
+                <li><Link to='/projects'><FontAwesomeIcon icon='fa-solid fa-pencil'/></Link></li>
+                <li><Link to='/about'><FontAwesomeIcon icon='fa-solid fa-circle-user'/></Link></li>
+                <li><Link to='/cv'><FontAwesomeIcon icon='fa-solid fa-file'/></Link></li>
+                 <li><Link to='/contact'><FontAwesomeIcon icon='fa-solid fa-square-phone-flip'/></Link></li>
         </ul>
     </div>
   )

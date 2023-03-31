@@ -17,7 +17,7 @@ sans-serif; */
 }
 
 .homepage-container{
-        height: 110vh;
+        height: 200vh;
         width: 100%;
         position: relative;
         z-index: 1;
@@ -167,6 +167,11 @@ sans-serif; */
         margin: 0 auto;
 }
 
+.contact-container {
+        text-align: center;
+        color: white;
+        padding-top: 300px;
+}
 
 
 

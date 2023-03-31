@@ -8,6 +8,17 @@ font-family: 'Poppins',
 sans-serif;
 font-family: 'Red Hat Text',
 sans-serif; */
+
+:root {
+        --background-color: rgb(18, 18, 18);
+        --contrast-color: rgb(220, 220, 220);
+        --blue: rgb(102, 153, 184);
+        --pink: rgb(197, 87, 118);
+        --orange: rgb(216, 115, 57);
+        --green: rgb(111, 181, 118);
+        --yellow: rgb(243, 213, 63);
+
+}
 .nav-bar {
         width: 100%;
         height: 120px;
@@ -22,7 +33,7 @@ sans-serif; */
 }
 
 .name-logo{
-        font-size: 60px;
+        font-size: 50px;
 font-family: 'Montserrat',
                 sans-serif;
         font-weight: 200;
@@ -30,6 +41,7 @@ font-family: 'Montserrat',
         flex-flow: row nowrap;
         margin-left: 50px;
         position: relative;
+        color: var(--contrast-color);
 
 }
 .nav-bar a {
@@ -41,7 +53,7 @@ transform: scale(-1, 1);
 margin-left: 0px;
 }
 .letter-b {
-        margin-left: -18px;
+        margin-left: -14px;
 }
 
 .nav-list{
@@ -55,16 +67,33 @@ font-family: 'Red Hat Text',
                 sans-serif;
         font-weight: 400;
         letter-spacing: 1px;
+        margin-right: 40px;
 }
 .nav-list li {
-        margin: 30px;
-        font-size: 25px;
+        margin: 20px;
 }
 .nav-list a {
         text-decoration: none;
         color: rgb(177, 65, 65);
 }
  .nav-list .fa-file,  .nav-list .fa-house,  .nav-list .fa-pencil,  .nav-list .fa-circle-user,  .nav-list .fa-square-phone-flip {
-        font-size: 35px;
-        color: rgba(235, 115, 46, 0.782);
+        font-size: 23px;
+        color: var(--contrast-color);
+        text-align: center;
+}
+.nav-list .fa-house:hover{
+        color: var(--yellow);
+        cursor: pointer;
+}
+.nav-list .fa-pencil:hover{
+        color: var(--blue);
+}
+.nav-list .fa-circle-user:hover{
+        color: var(--orange);
+}
+.nav-list .fa-file:hover{
+        color: var(--pink);
+}
+.nav-list .fa-square-phone-flip:hover{
+        color: var(--green);
 }
