@@ -7,6 +7,9 @@ const CVContainer = () => {
   return (
     <div className='cv-container'>
     <NavBar />
+    <div className='cv-body'>
+      <h1>cv</h1>
+    </div>
     <Footer />
     </div>
   )

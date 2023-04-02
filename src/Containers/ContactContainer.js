@@ -6,19 +6,14 @@ const ContactContainer = () => {
   return (
     <div className='contact-container'>
         <NavBar />
-        <h1>Contact Me</h1>
-        <div className='contact-form'>
-        <form>
-        <div className='name-email'>
-          <input className='type-input' type='text' placeholder='Name' required/>
-          <input className='type-input' type='email' placeholder='Email' required/>
-          </div>
-          <textarea placeholder='Send me a message!' required/>
-          <input className='submit-button' type='submit' value='Send Message'/>
-        </form>
+        <div className='contact-body'>
+        <h1>contact me</h1>
+        <div className='contact-backing'>
+        <h3> sample text</h3>
+        </div>
         </div>
     </div>
   )
 }
 
-export default ContactContainer
+export default ContactContainer;

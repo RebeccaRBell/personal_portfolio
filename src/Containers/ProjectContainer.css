@@ -8,22 +8,47 @@ font-family: 'Poppins',
 sans-serif;
 font-family: 'Red Hat Text',
 sans-serif; */
+
 :root {
-        --background-color: rgb(220, 220, 220);
         --contrast-color: rgb(18, 18, 18);
+        --background-color: rgb(253, 253, 255);
         --blue: rgb(102, 153, 184);
-        --pink: rgb(197, 87, 118);
+        --pink: rgb(189, 61, 78);
         --orange: rgb(216, 115, 57);
         --green: rgb(111, 181, 118);
-        --yellow: rgb(243, 213, 63);
-}
+        --yellow: rgb(243, 203, 45);
 
+}
 .project-container{
 font-family: 'Poppins', sans-serif;
                 background-color: var(--background-color);
                 height: 100%;
                 width: 100%;
 
+}
+
+.project-body {
+        animation-name: project-body;
+                animation-duration: 1s;
+}
+
+@keyframes project-body {
+        0% {
+                opacity: 0%;
+        }
+
+        100% {
+                opacity: 100%;
+        }
+}
+.project-body h1{
+        color: var(--blue);
+        font-weight: 600;
+        font-size: 60px;
+        text-align: center;
+       margin: 0 auto;
+       padding: 10px;
+        
 }
 
 /* .project-container h1 {

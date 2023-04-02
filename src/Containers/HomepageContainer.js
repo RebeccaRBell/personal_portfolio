@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './HomepageContainer.css';
-import ContactContainer from './ContactContainer';
 import Footer from '../Components/Footer';
 import { Link } from 'react-router-dom';
 import { faS } from '@fortawesome/free-solid-svg-icons';

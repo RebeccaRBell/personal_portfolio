@@ -13,10 +13,10 @@ sans-serif; */
         --contrast-color: rgb(18, 18, 18);
         --background-color: rgb(253, 253, 255);
         --blue: rgb(102, 153, 184);
-        --pink: rgb(197, 87, 118);
+        --pink: rgb(189, 61, 78);
         --orange: rgb(216, 115, 57);
         --green: rgb(111, 181, 118);
-        --yellow: rgb(255, 222, 55);
+        --yellow: rgb(243, 203, 45);
 
 }
 .nav-bar {
@@ -69,7 +69,7 @@ font-family: 'Red Hat Text',
         margin-right: 60px;
 }
 .nav-list li {
-        margin: 40px;
+        margin: 35px;
 }
 .nav-list a {
         text-decoration: none;
@@ -77,7 +77,6 @@ font-family: 'Red Hat Text',
 }
  .nav-list .fa-file,  .nav-list .fa-house,  .nav-list .fa-pencil,  .nav-list .fa-circle-user,  .nav-list .fa-square-phone-flip {
         font-size: 25px;
-        margin-left: 15px;
         color: var(--contrast-color);
         text-align: center;
 }
@@ -87,6 +86,8 @@ font-family: 'Red Hat Text',
          border-radius: 50px;
         background-color: var(--yellow);
         cursor: pointer;
+        padding: 10px;
+                margin: -10px;
 }
 .nav-list .fa-pencil:hover{
         color: var(--background-color);
@@ -94,6 +95,8 @@ font-family: 'Red Hat Text',
                 border-radius: 50px;
                 background-color: var(--blue);
                 cursor: pointer;
+                padding: 10px;
+                        margin: -10px;
 }
 .nav-list .fa-circle-user:hover{
 color: var(--background-color);
@@ -101,6 +104,8 @@ color: var(--background-color);
         border-radius: 50px;
         background-color: var(--orange);
         cursor: pointer;
+        padding: 10px;
+                margin: -10px;
 }
 .nav-list .fa-file:hover{
 color: var(--background-color);
@@ -108,6 +113,11 @@ color: var(--background-color);
         border-radius: 50px;
         background-color: var(--pink);
         cursor: pointer;
+        padding: 10px;
+        margin: -10px;
+        margin-right: -15px;
+        width: 23px;
+        height: 23px;
 }
 .nav-list .fa-square-phone-flip:hover{
 color: var(--background-color);
@@ -116,5 +126,5 @@ color: var(--background-color);
         background-color: var(--green);
         cursor: pointer;
         padding: 10px;
-        margin-right: -10px;
+        margin: -10px;
 }
