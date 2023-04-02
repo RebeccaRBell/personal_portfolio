@@ -7,8 +7,9 @@ sans-serif;
 font-family: 'Red Hat Text',
 sans-serif; */
 :root {
-        --background-color: rgb(18, 18, 18);
-        --contrast-color: rgb(220, 220, 220);
+        --background-color: rgb(253,253,255);
+        --contrast-color: rgb(18, 18, 18);
+        --grey: rgba(78, 78, 78, 0.855);
         --blue: rgb(102, 153, 184);
         --pink: rgb(197, 87, 118);
         --orange: rgb(216, 115, 57);
@@ -87,12 +88,14 @@ sans-serif; */
 }
 
 .intro h1 {
-        font-weight: 100;
-        font-size: 75px;
+  
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 70px;
         padding: 0px;
         margin: 0 auto;
         text-align: center;
-        padding-top: 250px;
+        padding-top: 240px;
         color: var(--contrast-color);
         
 }
@@ -100,8 +103,9 @@ sans-serif; */
 
 
 .intro h3 {
-        font-weight: 300;
-        font-size: 25px;
+        font-weight: 100;
+        font-size: 30px;
+        letter-spacing: 2px;
         text-align: center;
         margin: 0 auto;
         padding: 0px;
@@ -115,33 +119,65 @@ sans-serif; */
         flex-flow: row nowrap;
         justify-content: center;
         margin-top: 40px;
+        align-items: center;
 }
 
-.icons .fa-pencil, .icons .fa-circle-user,  .icons .fa-file,  .icons .fa-square-phone-flip{
-        color: white;
+.icons .fa-pencil, .icons .fa-circle-user,  .icons .fa-square-phone-flip{
+        color: var(--contrast-color);
         font-size: 27px;
 }
-.icons .fa-pencil:hover{
-        color: var(--blue);
+ .icons .fa-file{
+        color: var(--contrast-color);
+        font-size: 27px;
+        width: 27px;
+        height: 27px;
+ }
+.project-icon {
+        margin: 0 auto;
+}
+
+.project-icon :hover{
+        color: var(--background-color);
+        background-color: var(--blue);
+        border-radius: 50px;
+        margin-top: -12px;
+        padding: 12px;
+        cursor: pointer;
+        
 }
 .icons .fa-circle-user:hover{
-        color: var(--orange);
+        color: var(--background-color);
+        margin: 0 auto;
+                border-radius: 50px;
+                background-color: var(--orange);
+                margin-top: -12px;
+                        padding: 12px;
+                cursor: pointer;
 }
 .icons .fa-file:hover {
-        color: var(--pink);
+        color: var(--background-color);
+        margin: 0 auto;
+                border-radius: 50px;
+                background-color: var(--pink);
+                margin-top: -12px;
+                        padding: 12px;
+                cursor: pointer;
 }
 .icons .fa-square-phone-flip:hover{
-        color: var(--green);
+        color: var(--background-color);
+        margin: 0 auto;
+                border-radius: 50px;
+                background-color: var(--green);
+                margin-top: -12px;
+                        padding: 15px;
+                cursor: pointer;
 }
-.icons div{
-        margin: 25px;
-}
+
 
 .links {
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
-        margin-top:-135px;
 }
 .links:hover {
         cursor: pointer;
@@ -150,8 +186,13 @@ sans-serif; */
         font-weight: 400;
         font-size: 18px;
 }
+.icons div{
+        margin: 25px;
+}
 .links div {
         margin: 25px;
+        margin-top: -100px;
+
 }
 .links .link {
         text-decoration: none;
@@ -284,9 +325,6 @@ sans-serif; */
                         margin-top: -110px;
                 }
         
-                .links:hover {
-                        cursor: pointer;
-                }
         
                 .links h2 {
                         font-weight: 400;

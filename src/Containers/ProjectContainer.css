@@ -9,8 +9,8 @@ sans-serif;
 font-family: 'Red Hat Text',
 sans-serif; */
 :root {
-        --background-color: rgb(18, 18, 18);
-        --contrast-color: rgb(220, 220, 220);
+        --background-color: rgb(220, 220, 220);
+        --contrast-color: rgb(18, 18, 18);
         --blue: rgb(102, 153, 184);
         --pink: rgb(197, 87, 118);
         --orange: rgb(216, 115, 57);
@@ -19,8 +19,7 @@ sans-serif; */
 }
 
 .project-container{
-font-family: 'Red Hat Text',
-                sans-serif;
+font-family: 'Poppins', sans-serif;
                 background-color: var(--background-color);
                 height: 100%;
                 width: 100%;
@@ -44,7 +43,6 @@ font-family: 'Montserrat',
         margin: 0 auto;
 }
 .project{
-        background-color: var(--contrast-color);
         margin-top: 40px;
         border-radius: 15px;
        
@@ -53,9 +51,19 @@ font-family: 'Montserrat',
         width: 50%;
         border-radius: 15px;
 }
-.project-one {
+.project-flex {
         display: flex;
         flex-flow: row nowrap;
+}
+.project-one-header h3 {
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+        color: var(--orange)
+}
+.project-one {
         border: 3px solid var(--orange);
         border-radius: 15px;
         padding: 30px;
@@ -65,19 +73,23 @@ font-family: 'Montserrat',
         text-align: right;
         padding: 20px;
 }
-.project-one-text h3{
-        font-size: 25px;
-        color: var(--orange);
-}
+
 .project ul {
         list-style-type: none;
+        padding: 0px;
 }
 .project-two {
-        display: flex;
-        flex-flow: row nowrap;
         border: 3px solid var(--green);
         border-radius: 15px;
         padding: 30px;
+}
+.project-two-header h3 {
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+        color: var(--green);
 }
 
 .project-two-text {
@@ -86,10 +98,6 @@ font-family: 'Montserrat',
         padding: 20px;
 }
 
-.project-two-text h3 {
-        font-size: 25px;
-        color: var(--green);
-}
 
 .project ul {
         list-style-type: none;

@@ -9,11 +9,6 @@ sans-serif;
 font-family: 'Red Hat Text',
 sans-serif; */
 
-:root{
-        --background-color: rgb(18, 18, 18);
-        --contrast-color: rgb(220,220,220);
-}
-
 .opening {
         width: 100%;
         height: 100vh;

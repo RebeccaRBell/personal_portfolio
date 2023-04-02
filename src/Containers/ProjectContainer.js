@@ -13,9 +13,13 @@ const ProjectContainer = () => {
     <div className='projects'>
       <div className='project'>
       <div className='project-one'>
+        <div className='project-one-header'>
+<h3>Travel Bucket List App</h3>
+  </div>
+<div className='project-flex'>
     <video src={python} controls autoPlay loop muted/>
     <div className='project-one-text'>
-      <h3>Travel Bucket List App</h3>
+  
       <h4>Python | SQL | Flask | Django</h4>
       <p>This app was created as my first solo project at CodeClan. 
       <br />The brief I chose was to create a CRUD application to help track a user's travel destinations.
@@ -32,10 +36,14 @@ const ProjectContainer = () => {
     </div>
     </div>
     </div>
+    </div>
     <div className='project'>
     <div className='project-two'>
-    <div className='project-two-text'>
+  <div className='project-two-header'>
       <h3>smeco - Environmental Education App</h3>
+  </div>
+  <div className='project-flex'>
+    <div className='project-two-text'>
       <h4>React | MongoDB | Express.js | Node.js </h4>
       <p>This app was created for my first group project at CodeClan.
       <br />The brief my group chose was to create an environmental education app centring on carbon emissions. 
@@ -51,6 +59,7 @@ const ProjectContainer = () => {
        </p>
     </div>
         <video src={smeco} controls autoPlay loop muted/>
+    </div>
     </div>
     </div>
     </div>

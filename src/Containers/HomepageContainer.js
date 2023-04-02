@@ -60,13 +60,13 @@ const HomepageContainer = () => {
       <h3>Junior Software Developer</h3>
       <div className='icons'>
         <div className='project-link' onMouseOver={mouseHoverProject} onMouseLeave={mouseLeaveProject}>
-        <Link to='/projects' className='link'><FontAwesomeIcon icon='fa-solid fa-pencil'/></Link></div>
+        <Link to='/projects' className='link project-icon'><FontAwesomeIcon icon='fa-solid fa-pencil'/></Link></div>
           <div className='about-link'onMouseOver={mouseHoverAbout} onMouseLeave={mouseLeaveAbout}>
-           <Link to='/about' className='link'><FontAwesomeIcon icon="fa-solid fa-circle-user" /></Link></div>
+           <Link to='/about' className='link about-icon'><FontAwesomeIcon icon="fa-solid fa-circle-user" /></Link></div>
           <div className='cv-link' onMouseOver={mouseHoverCV} onMouseLeave={mouseLeaveCV}>
-           <Link to='/cv' className='link'><FontAwesomeIcon icon="fa-solid fa-file" /></Link></div>
+           <Link to='/cv' className='link cv-icon'><FontAwesomeIcon icon="fa-solid fa-file" /></Link></div>
            <div className='contact-link' onMouseOver={mouseHoverContact} onMouseLeave={mouseLeaveContact} >
-           <a href='#contact' className='link'><FontAwesomeIcon icon="fa-solid fa-square-phone-flip" /></a></div>
+           <a href='#contact' className='link contact-icon'><FontAwesomeIcon icon="fa-solid fa-square-phone-flip" /></a></div>
       </div>
       <div className='links'>
       <div className='project-link' onMouseOver={mouseHoverProject} onMouseLeave={mouseLeaveProject}>
