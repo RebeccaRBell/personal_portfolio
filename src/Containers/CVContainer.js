@@ -14,7 +14,9 @@ const CVContainer = () => {
     <div className='cv-body'>
       <h1>cv</h1>
       <div className='coding-experience'>
-      <div className='coding-text'><h3>coding experience</h3>
+      <div className='coding-text-cont'>
+      <h3>coding experience</h3>
+      <div className='coding-text'>
       <h4>CodeClan - Professional Software Development</h4>
       <p>SQA - Professional Development Award<br />
       Jan 2023 - Apr 2023</p>
@@ -31,6 +33,7 @@ const CVContainer = () => {
         <li>Completed all SheCodes courses included in their Pro Programme which focussed on Front-End Design and Development</li>
         <li>Designed and programmed a weather app using React</li>
       </ul>
+     </div>
      </div>
       <div className='certificates'>
         <h3>certifications</h3>

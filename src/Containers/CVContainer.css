@@ -58,9 +58,8 @@ sans-serif; */
         margin: 0 auto;
 
 }
-.coding-text{
+.coding-text-cont{
         width: 50%;
-        padding: 20px;
         margin: 0 auto;
 
 }
@@ -72,7 +71,7 @@ sans-serif; */
        
 }
 
-.coding-text h3{
+.coding-text-cont h3{
         color: rgba(189, 61, 78, 0.7);
         font-size: 25px;
 }
