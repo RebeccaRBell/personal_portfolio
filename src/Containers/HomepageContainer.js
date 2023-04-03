@@ -65,7 +65,7 @@ const HomepageContainer = () => {
           <div className='cv-link' onMouseOver={mouseHoverCV} onMouseLeave={mouseLeaveCV}>
            <Link to='/cv' className='link cv-icon'><FontAwesomeIcon icon="fa-solid fa-file" /></Link></div>
            <div className='contact-link' onMouseOver={mouseHoverContact} onMouseLeave={mouseLeaveContact} >
-           <a href='#contact' className='link contact-icon'><FontAwesomeIcon icon="fa-solid fa-square-phone-flip" /></a></div>
+           <Link to='/contact'><FontAwesomeIcon icon="fa-solid fa-square-phone-flip" /></Link></div>
       </div>
       <div className='links'>
       <div className='project-link' onMouseOver={mouseHoverProject} onMouseLeave={mouseLeaveProject}>

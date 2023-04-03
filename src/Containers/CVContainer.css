@@ -49,3 +49,48 @@ sans-serif; */
         padding: 10px;
 
 }
+.coding-experience{
+        width: 90%;
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: center;
+        margin: 10px;
+        margin: 0 auto;
+
+}
+.coding-text{
+        width: 50%;
+        padding: 20px;
+        margin: 0 auto;
+
+}
+ .coding-text h4, .coding-text p, .coding-text ul {
+        margin: 0 auto;
+        padding: 0px;
+        line-height: 30px;
+        text-align: left;
+       
+}
+
+.coding-text h3{
+        color: rgba(189, 61, 78, 0.7);
+        font-size: 25px;
+}
+.certificates{
+        width: 50%;
+}
+.certificates h3{
+color: rgba(189, 61, 78, 0.7);
+        font-size: 25px;
+}
+.cert-images{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+}
+.cert-images img{
+        width: 250px;
+
+}

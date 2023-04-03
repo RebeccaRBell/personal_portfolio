@@ -55,3 +55,8 @@ sans-serif; */
         border-radius: 5px;
         }
 
+.contact-backing a {
+        color: var(--blue);
+        font-weight: 600;
+        text-decoration: none;
+}
