@@ -10,6 +10,17 @@ import pythonlogo from '../media/pythonlogo.png';
 import jslogo from '../media/jslogo.png';
 import reactlogo from '../media/reactlog.png';
 import javalogo from '../media/javalogo.png'
+import github from '../media/github.png';
+import git from '../media/git.png';
+import bootstrap from '../media/bootstrap.png';
+import idea from '../media/idea.png';
+import vscode from '../media/vscode.png';
+import node from '../media/node.png';
+import figma from '../media/figma.png';
+import css from '../media/css.png';
+import html from '../media/html.png';
+import flask from '../media/flask.png';
+import sql from '../media/sql.png';
 
 const CVContainer = () => {
   return (
@@ -42,12 +53,33 @@ const CVContainer = () => {
      </div>
      
      <div className='languages'>
-        <h3>languages & frameworks</h3>
+        <h3>languages & frameworks</h3> 
+
         <div className='languages-section'>
+         <div className='logo-row'>
     <img src={reactlogo} alt='React Logo'/>
     <img src={jslogo} alt='JavaScript Logo'/>
+    <img src={html} alt='HTML Logo'/>
+    <img src={css} alt='CSS Logo'/>
     <img src={pythonlogo} alt='Python Logo'/>
+</div>
+<div className='logo-row'>
     <img src={javalogo} alt='Java Logo'/>
+    <img src={node} alt='Node.js Logo'/>
+    <img src={sql} alt='PostreSQL Logo'/>
+    <img src={flask} alt='Flask Logo'/>
+    </div>
+          </div>
+          <div className='tools'>
+            <h3>tools</h3>
+            <div className='tools-section'>
+    <img src={github} alt='Github Logo'/>
+    <img src={git} at='Git Logo'/>
+    <img src={vscode} alt='VSCode Logo'/>
+    <img src={figma} alt='Figma Logo'/>
+    <img src={bootstrap} alt='Bootstrap Logo'/>
+    <img src={idea} alt='IntelliJ Logo'/>
+            </div>
           </div>
         </div>
       </div>
