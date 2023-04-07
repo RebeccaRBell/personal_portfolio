@@ -12,6 +12,7 @@ sans-serif; */
 :root {
         --contrast-color: rgb(18, 18, 18);
         --background-color: rgb(253, 253, 255);
+        --background-color-grey: rgb(238, 238, 238);
         --blue: rgb(102, 153, 184);
         --pink: rgb(189, 61, 78);
         --orange: rgb(216, 115, 57);
@@ -46,16 +47,26 @@ sans-serif; */
         font-size: 60px;
         text-align: center;
         margin: 0 auto;
-        padding: 10px;
+        padding: 10px 10px 30px 10px;
         
 }
 .about-text-one{
         display: flex;
         flex-flow: row nowrap;
         width: 90%;
-        padding: 20px;
+        padding: 10px;
         margin: 0 auto;
+        background-color:  var(--background-color-grey);
+        border-radius: 10px;
         
+}
+.about-text-one p {
+        color: var(--contrast-color);
+        padding: 5px;
+        margin-left: 5px;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        line-height: 25px;
 }
 .image-one{
         width: 40%;

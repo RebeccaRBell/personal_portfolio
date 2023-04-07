@@ -18,7 +18,7 @@ sans-serif; */
         display: flex;
         justify-content: center;
         animation-name: opening;
-        animation-duration: 4s;
+        animation-duration: 2.5s;
         animation-fill-mode: forwards;
 
 
@@ -52,7 +52,7 @@ font-family: 'Montserrat',
         font-weight: 100;
         font-size: 150px;
         animation-name: r;
-        animation-duration: 4s;
+        animation-duration: 2.5s;
         position: relative;
         text-align: center;
         left: 2%;
@@ -64,7 +64,7 @@ font-family: 'Montserrat',
         font-weight: 100;
         font-size: 150px;
         animation-name: b;
-        animation-duration: 4s;
+        animation-duration: 2.5s;
         position: relative;
         text-align: center;
         right: 2%;
@@ -85,7 +85,7 @@ font-family: 'Montserrat',
         flex-direction: column nowrap;
         justify-content: center;
         animation-name: circle-back;
-        animation-duration: 4s;
+        animation-duration: 2.5s;
 
 
 
@@ -98,7 +98,7 @@ font-family: 'Montserrat',
                 opacity: 100%;
         
         }
-        30%{
+        50%{
                 opacity: 100%;
         }
         100%{
@@ -116,7 +116,7 @@ font-family: 'Montserrat',
                 transform: scale(1, 1);
                 left: 0%;
         }
-        60%{
+        50%{
                 transform: scale(-1, 1);
                         left: 6%;
                         opacity: 100%;
@@ -140,7 +140,7 @@ font-family: 'Montserrat',
                 right: 0%;
         }
                
-                60%{
+                50%{
                         right: 6%;
                         opacity: 100%;
                         color: var(--contrast-color);

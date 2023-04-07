@@ -78,8 +78,9 @@ const HomepageContainer = () => {
   <Link to='/contact' className='link'>{hoverContact === true ?<h2>Contact</h2>: null}</Link>
     </div>
     </div>
+    <Footer />
     </div>
-<Footer />
+
   </div> 
   
   )
