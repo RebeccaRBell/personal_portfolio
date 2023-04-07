@@ -24,6 +24,7 @@ sans-serif; */
 .cv-container{
         background-color: var(--background-color);
         height: 100vh;
+        width: 100%;
         font-family: 'Poppins', sans-serif;
 
 }
@@ -60,18 +61,18 @@ sans-serif; */
 }
 .coding-experience-section{
         padding: 20px;
-        margin: 10px;
         background-color: rgb(238, 238, 238);
         border-radius: 10px;
+        margin: 20px;
+
 }
 .coding-experience h4{
         color: var(--contrast-color);
-        padding: 0px;
-        margin: 5px;
+        margin: 5px 5px 15px 5px;
         font-size: 17px;
         font-weight: 600;
 }
- .row-one p, .row-one ul {
+ .row-one-container p, .row-one-container ul {
         margin: 0 auto;
         padding: 0px;
         line-height: 30px;
@@ -81,7 +82,9 @@ sans-serif; */
        
 }
 .coding-experience{
-        width: 60%;
+        width: 65%;
+        margin: 0 auto;
+        padding: 10px;
 }
 
 .row-one-container h3{
@@ -90,38 +93,43 @@ sans-serif; */
 }
 
 .languages{
-        width: 40%;
+        width: 35%;
         text-align: center;
+        margin: 0 auto;
+                padding: 10px;
+        
         
 }
- .tools-section {
-        padding: 20px;
-        margin: 10px;
+.tools {
+        width: 100%;
+
+}
+ .tools-section, .languages-section {
+        width: 100%;
+        margin: 0 auto;
         background-color: rgb(238, 238, 238);
         border-radius: 10px;
         display: flex;
-        flex-direction: row wrap;
+        flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: center;
 }
-.languages-section {
-        padding: 20px;
-                margin: 10px;
-                background-color: rgb(238, 238, 238);
-                border-radius: 10px;
-                display: flex;
-                flex-flow: column nowrap;
-}
+
 .logo-row {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: center;
 }
-.languages-section img, .tools-section img{
+.languages-section img{
         max-width: 50px;
         max-height: 50px;
-        margin: 20px;
+        margin: 20px 20px 20px 20px;
+}
+.tools-section img{
+        max-width: 40px;
+                max-height: 40px;
+                margin: 25px 35px 15px 35px;
 }
 
 .certificates {

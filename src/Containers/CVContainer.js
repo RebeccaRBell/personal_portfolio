@@ -21,6 +21,7 @@ import css from '../media/css.png';
 import html from '../media/html.png';
 import flask from '../media/flask.png';
 import sql from '../media/sql.png';
+import mongo from '../media/mongo.png';
 
 const CVContainer = () => {
   return (
@@ -56,20 +57,17 @@ const CVContainer = () => {
         <h3>languages & frameworks</h3> 
 
         <div className='languages-section'>
-         <div className='logo-row'>
+            <img src={html} alt='HTML Logo'/>
+    <img src={css} alt='CSS Logo'/>
     <img src={reactlogo} alt='React Logo'/>
     <img src={jslogo} alt='JavaScript Logo'/>
-    <img src={html} alt='HTML Logo'/>
-    <img src={css} alt='CSS Logo'/>
     <img src={pythonlogo} alt='Python Logo'/>
-</div>
-<div className='logo-row'>
     <img src={javalogo} alt='Java Logo'/>
     <img src={node} alt='Node.js Logo'/>
+     <img src={mongo} alt='MongoDB Logo'/>
     <img src={sql} alt='PostreSQL Logo'/>
     <img src={flask} alt='Flask Logo'/>
     </div>
-          </div>
           <div className='tools'>
             <h3>tools</h3>
             <div className='tools-section'>
