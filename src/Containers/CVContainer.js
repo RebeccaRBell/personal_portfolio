@@ -57,26 +57,26 @@ const CVContainer = () => {
         <h3>languages & frameworks</h3> 
 
         <div className='languages-section'>
-            <img src={html} alt='HTML'/>
-    <img src={css} alt='CSS'/>
-    <img src={reactlogo} alt='React'/>
-    <img src={jslogo} alt='JavaScript'/>
-    <img src={pythonlogo} alt='Python'/>
-    <img src={javalogo} alt='Java'/>
-    <img src={node} alt='Node.js'/>
-     <img src={mongo} alt='MongoDB'/>
-    <img src={sql} alt='PostreSQL'/>
-    <img src={flask} alt='Flask'/>
+            <img src={html} alt='HTML Logo'/>
+    <img src={css} alt='CSS Logo'/>
+    <img src={reactlogo} alt='React Logo'/>
+    <img src={jslogo} alt='JavaScript Logo'/>
+    <img src={pythonlogo} alt='Python Logo'/>
+    <img src={javalogo} alt='Java Logo'/>
+    <img src={node} alt='Node.js Logo'/>
+     <img src={mongo} alt='MongoDB Logo'/>
+    <img src={sql} alt='PostreSQL Logo'/>
+    <img src={flask} alt='Flask Logo'/>
     </div>
           <div className='tools'>
             <h3>tools</h3>
             <div className='tools-section'>
-    <img src={github} alt='Github'/>
-    <img src={git} at='Git'/>
-    <img src={vscode} alt='VSCode'/>
-    <img src={figma} alt='Figma'/>
-    <img src={bootstrap} alt='Bootstrap'/>
-    <img src={idea} alt='IntelliJ'/>
+    <img src={github} alt='Github Logo'/>
+    <img src={git} alt='Git Logo'/>
+    <img src={vscode} alt='VSCode Logo'/>
+    <img src={figma} alt='Figma Logo'/>
+    <img src={bootstrap} alt='Bootstrap Logo'/>
+    <img src={idea} alt='IntelliJ Logo'/>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ const ContactContainer = () => {
         <div className='contact-body'>
         <h1>contact me</h1>
         <div className='contact-backing'>
-        <p> If you'd like to get in touch, you can reach me via <a href='https://www.linkedin.com/in/rebeccarbell/' target='_blank' rel='noopener'>linkedin</a> or at rebeccaromanobell@gmail.com</p>
+        <p> If you'd like to get in touch, you can reach me via <a href='https://www.linkedin.com/in/rebeccarbell/' target='_blank' rel='noreferrer'>linkedin</a> or at rebeccaromanobell@gmail.com</p>
         </div>
         </div>
         <Footer />
