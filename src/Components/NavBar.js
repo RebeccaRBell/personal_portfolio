@@ -12,50 +12,6 @@ library.add(faS, faPencil, faHand, faPhone, faHome, faFile, faSquarePhoneFlip);
 
 const NavBar = () => {
 
-    const [hoverProject , setHoverProject] = useState(false);
-  const [hoverAbout, setHoverAbout] = useState(false);
-  const [hoverContact, setHoverContact] = useState(false);
-  const [hoverCV, setHoverCV] = useState(false);
-  const [hoverHome, setHoverHome] = useState(false);
-
-
-    const mouseHoverHome= () => {
-    setHoverHome(true);
-  }
-
-  const mouseLeaveHome = () => {
-    setHoverHome(false);
-  }
-  const mouseHoverProject = () => {
-    setHoverProject(true);
-  }
-
-  const mouseLeaveProject = () => {
-    setHoverProject(false);
-  }
-  const mouseHoverAbout= () => {
-    setHoverAbout(true);
-  }
-
-  const mouseLeaveAbout = () => {
-    setHoverAbout(false);
-  }
-  const mouseHoverCV= () => {
-    setHoverCV(true);
-  }
-
-  const mouseLeaveCV = () => {
-    setHoverCV(false);
-  }
-  const mouseHoverContact= () => {
-    setHoverContact(true);
-  }
-
-  const mouseLeaveContact = () => {
-    setHoverContact(false);
-  }
-
-
   return (
     <div className='nav-bar'>
    <Link to='/'> <div className='name-logo'><p className='letter-r'>R</p><p className='letter-b'>B</p></div></Link>

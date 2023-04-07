@@ -18,7 +18,7 @@ const AboutContainer = () => {
           
         </p>
         <div className='image-one'>
-        <img src={bristol} alt='theatre-image'/>
+        <img src={bristol} alt='Bristol Old Vic auditorium'/>
         </div>
       </div>
     </div>
