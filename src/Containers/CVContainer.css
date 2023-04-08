@@ -18,6 +18,7 @@ sans-serif; */
         --green: rgb(111, 181, 118);
         --yellow: rgb(243, 203, 45);
 
+
 }
 
 
@@ -63,7 +64,8 @@ sans-serif; */
         padding: 20px;
         background-color: rgb(238, 238, 238);
         border-radius: 10px;
-        margin: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;  
 
 }
 .coding-experience h4{
@@ -72,39 +74,41 @@ sans-serif; */
         font-size: 17px;
         font-weight: 600;
 }
- .row-one-container p, .row-one-container ul {
+
+ .row-one-container ul {
         margin: 0 auto;
-        padding: 0px;
+        padding: 5px;
         line-height: 30px;
         text-align: left;
         list-style: none;
         color: var(--contrast-color);
+
        
 }
 .coding-experience{
         width: 65%;
         margin: 0 auto;
-        padding: 10px;
+        margin-right: 10px;
 }
 
-.row-one-container h3{
+.row-one-container h3, .certificates h3, .education h3 {
         color: rgba(189, 61, 78, 0.7);
         font-size: 22px;
 }
 
 .languages{
         width: 35%;
-        text-align: center;
-        margin: 0 auto;
-                padding: 10px;
+        margin-left: 10px;
+        
         
         
 }
 .tools {
         width: 100%;
+        margin-top: 30px;
 
 }
- .tools-section, .languages-section {
+ .tools-section, .languages-section{
         width: 100%;
         margin: 0 auto;
         background-color: rgb(238, 238, 238);
@@ -121,10 +125,11 @@ sans-serif; */
         justify-content: space-evenly;
         align-items: center;
 }
+
 .languages-section img{
         max-width: 50px;
         max-height: 50px;
-        margin: 20px 20px 20px 20px;
+        margin: 30px 20px 20px 20px;
 }
 .tools-section img{
         max-width: 40px;
@@ -132,15 +137,28 @@ sans-serif; */
                 margin: 25px 35px 15px 35px;
 }
 
+
 .certificates {
+        margin: 0 auto;
         width: 50%;
 }
 
-.certificates h3 {
-        color: rgba(189, 61, 78, 0.7);
-        font-size: 25px;
-}
 .certificates img{
-        width: 250px;
-
+        width: 280px;
+        height: 200px;
+        margin: 5px;
+        padding: 15px 10px 15px 10px;
+}
+.cert-images {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: rgb(238, 238, 238);
+        border-radius: 10px;
+}
+.education{
+        width: 50%;
 }

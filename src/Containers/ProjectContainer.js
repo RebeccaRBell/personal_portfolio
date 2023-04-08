@@ -10,7 +10,7 @@ const ProjectContainer = () => {
     <div className='project-container'>
     <NavBar />
     <div className='project-body'>
-    <h1>projects</h1>
+    <h1>Projects</h1>
     <div className='projects'>
       <div className='project'>
       <div className='project-one'>

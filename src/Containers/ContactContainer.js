@@ -8,7 +8,7 @@ const ContactContainer = () => {
     <div className='contact-container'>
         <NavBar />
         <div className='contact-body'>
-        <h1>contact me</h1>
+        <h1>Contact Me</h1>
         <div className='contact-backing'>
         <p> If you'd like to get in touch, you can reach me via <a href='https://www.linkedin.com/in/rebeccarbell/' target='_blank' rel='noreferrer'>linkedin</a> or at rebeccaromanobell@gmail.com</p>
         </div>

@@ -9,7 +9,7 @@ const AboutContainer = () => {
     <div className='about-container'>
     <NavBar />
     <div className='about-body'>
-      <h1>about me</h1>
+      <h1>About Me</h1>
       <div className='about-text-one'>
         <p>
           I stumbled across the world of software and web development around a year ago and, as cheesy as it sounds, I haven't stopped coding since. With my background in Music and Theatre Production I've always had an interest in how creativity and technology combine. 

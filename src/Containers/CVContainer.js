@@ -1,7 +1,8 @@
 import React from 'react'
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-import './CVContainer.css'
+import './CVContainer.css';
+import fcccert from '../media/fcccert.jpg';
 import shecodesbasic from '../media/shecodesbasic.png';
 import shecodesplus from '../media/shecodesplus.png'
 import shecodesresponsive from '../media/shecodesresponsive.png';
@@ -28,10 +29,10 @@ const CVContainer = () => {
     <div className='cv-container'>
     <NavBar />
     <div className='cv-body'>
-      <h1>cv</h1>
+      <h1>CV</h1>
       <div className='row-one-container'>
       <div className='coding-experience'>
-      <h3>coding experience</h3>
+      <h3>Coding Experience</h3>
       <div className='coding-experience-section'>
       <h4>CodeClan - Professional Software Development</h4>
       <p>SQA - Professional Development Award<br />
@@ -54,7 +55,7 @@ const CVContainer = () => {
      </div>
      
      <div className='languages'>
-        <h3>languages & frameworks</h3> 
+        <h3>Languages & Frameworks</h3> 
 
         <div className='languages-section'>
             <img src={html} alt='HTML Logo'/>
@@ -69,7 +70,7 @@ const CVContainer = () => {
     <img src={flask} alt='Flask Logo'/>
     </div>
           <div className='tools'>
-            <h3>tools</h3>
+            <h3>Tools</h3>
             <div className='tools-section'>
     <img src={github} alt='Github Logo'/>
     <img src={git} alt='Git Logo'/>
@@ -83,20 +84,23 @@ const CVContainer = () => {
       </div>
 
  <div className='row-two-container'>
- <div className='row-two'>
       <div className='certificates'>
-        <h3>certifications</h3>
+        <h3>Certificates</h3>
         <div className='cert-images'>
         <img src={shecodesreact} alt='SheCodes React Certificate'/>
         <img src={shecodesresponsive} alt='SheCodes Responsive Certificate'/>
+        <img src={fcccert} alt='FreeCodeCamp Certificate'/>
         <img src={shecodesplus} alt='SheCodes Plus Certificate'/>
           <img src={shecodesbasic} alt='SheCodes Basic Certificate'/>
-          
+          </div>
+      </div>
+      <div className='education'>
+      <h3>Education</h3>
+    <div className='education-section'>
 
+    </div>
       </div>
-        </div>
-      </div>
-      </div>
+</div>
     </div>
     <Footer />
     </div>
