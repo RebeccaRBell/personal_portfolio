@@ -60,7 +60,7 @@ sans-serif; */
         margin: 0 auto;
 
 }
-.coding-experience-section{
+.coding-experience-section, .education-section{
         padding: 20px;
         background-color: rgb(238, 238, 238);
         border-radius: 10px;
@@ -68,14 +68,14 @@ sans-serif; */
         margin-bottom: 20px;  
 
 }
-.coding-experience h4{
+.coding-experience h4, .education h4{
         color: var(--contrast-color);
         margin: 5px 5px 15px 5px;
         font-size: 17px;
         font-weight: 600;
 }
 
- .row-one-container ul {
+ .row-one-container ul{
         margin: 0 auto;
         padding: 5px;
         line-height: 30px;
@@ -94,6 +94,7 @@ sans-serif; */
 .row-one-container h3, .certificates h3, .education h3 {
         color: rgba(189, 61, 78, 0.7);
         font-size: 22px;
+        text-align: center;
 }
 
 .languages{
@@ -140,7 +141,8 @@ sans-serif; */
 
 .certificates {
         margin: 0 auto;
-        width: 50%;
+        width: 65%;
+        margin-right: 10px;
 }
 
 .certificates img{
@@ -160,5 +162,11 @@ sans-serif; */
         border-radius: 10px;
 }
 .education{
-        width: 50%;
+        width: 35%;
+        margin-left: 10px;
+}
+.education ul {
+        list-style: none;
+        text-align: center;
+        padding: 0px;
 }

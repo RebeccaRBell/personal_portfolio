@@ -97,7 +97,22 @@ const CVContainer = () => {
       <div className='education'>
       <h3>Education</h3>
     <div className='education-section'>
-
+    <h4>Royal Conservatoire of Scotland</h4>
+      <p>BA Production Technology & Management<br />
+      2015 - 2018</p>
+       <ul>
+        <li>- Stage Management specialism with placement at Bristol Old Vic</li>
+        <li>- Optional extra module studied in Set & Costume Design</li>
+      </ul>
+    </div>
+    <div className='education-section'>
+    <h4>Glasgow Clyde College</h4>
+      <p>HND Music<br />
+      2015 - 2018
+      </p>
+       <ul>
+        <li>- Grade A performance diploma in Voice & Clarinet</li>
+      </ul>
     </div>
       </div>
 </div>
