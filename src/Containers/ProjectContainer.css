@@ -87,10 +87,10 @@ font-family: 'Montserrat',
         text-align: center;
         padding: 10px;
         margin: 0 auto;
-        color: var(--orange)
+        color: var(--blue)
 }
 .project-one {
-        border: 3px solid var(--orange);
+        border: 3px solid var(--blue);
         border-radius: 15px;
         padding: 30px;
 }
@@ -98,6 +98,9 @@ font-family: 'Montserrat',
         width: 100%;
         text-align: right;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 }
 
 .project ul {
@@ -105,7 +108,7 @@ font-family: 'Montserrat',
         padding: 0px;
 }
 .project-two {
-        border: 3px solid var(--green);
+        border: 3px solid var(--orange);
         border-radius: 15px;
         padding: 30px;
 }
@@ -115,16 +118,43 @@ font-family: 'Montserrat',
         text-align: center;
         padding: 10px;
         margin: 0 auto;
-        color: var(--green);
+        color: var(--orange);
 }
 
 .project-two-text {
         width: 100%;
         text-align: left;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 }
 
 
 .project ul {
         list-style-type: none;
+}
+
+.summit video{
+        width: 30%;
+        padding-top: 1%;
+}
+.project-one.summit-project {
+        border: 3px solid var(--green);
+        border-radius: 15px;
+        padding: 30px;
+}
+.project-one-header, .summit-header h3{
+        color: var(--green)
+        
+}
+.project-one-text.summit-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.links img {
+        width: 30px;
+        
 }

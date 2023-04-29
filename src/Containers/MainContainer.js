@@ -5,15 +5,17 @@ import ContactContainer from './ContactContainer';
 import ProjectContainer from './ProjectContainer';
 import HomepageContainer from './HomepageContainer';
 import CVContainer from './CVContainer';
+import Opening from '../Components/Opening';
 import './MainContainer.css';
 
 
 const MainContainer = () => {
   return (
     <div className='main-container'>
-        <Router>
+      <Router>
       <Routes>
-        <Route path='/' element={<HomepageContainer />}/>
+        <Route path='/opening' element={<Opening />}/>
+        <Route path='/' element={<HomepageContainer/>} />
         <Route path="/projects" element={<ProjectContainer />} />
         <Route path="/about" element={<AboutContainer />} />
         <Route path="/contact" element={<ContactContainer />} />
