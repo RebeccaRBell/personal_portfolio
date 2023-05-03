@@ -1,15 +1,14 @@
-import React from 'react'
-import NavBar from '../Components/NavBar';
-import Footer from '../Components/Footer';
-import './ProjectContainer.css';
-import python from '../media/python.mp4';
-import smeco from '../media/smeco.mp4';
-import summit from '../media/summit.mp4'
-import github from '../media/github.svg';
+import React from "react";
+import NavBar from "../Components/NavBar";
+import Footer from "../Components/Footer";
+import "./ProjectContainer.css";
+import python from "../media/python.mp4";
+import smeco from "../media/smeco.mp4";
+import summit from "../media/summit.mp4";
+import github from "../media/github.svg";
 
- 
 const ProjectContainer = () => {
-  return (
+	return (
 		<div className="project-container">
 			<NavBar />
 			<div className="project-body">
@@ -54,14 +53,30 @@ const ProjectContainer = () => {
 												Various filter and sort options for the list of Munros
 											</li>
 										</ul>
-										<ul className="links">
-											<li className='github-link'>
-												<a href="https://github.com/Phil-bro-92/Summit-To-Do" target='_blank' rel='noreferrer'>
-													<img src={github} alt='github logo'/>
-												</a>
-											</li>
-										</ul>
 									</p>
+									<div className="icon-links">
+										<a
+											href="https://github.com/RebeccaRBell/Summit-To-Do"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<img src={github} alt="github logo" />
+										</a>
+										<a
+											href="https://www.linkedin.com/feed/update/urn:li:activity:7058013682324131840/"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="24"
+												height="24"
+												viewBox="0 0 24 24"
+											>
+												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+											</svg>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -101,6 +116,29 @@ const ProjectContainer = () => {
 											</li>
 										</ul>
 									</p>
+									<div className="icon-links">
+										<a
+											href="https://github.com/RebeccaRBell/smeco_group_project"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<img src={github} alt="github logo" />
+										</a>
+										<a
+											href="https://www.linkedin.com/posts/rebeccarbell_javascript-mongodb-expressjs-activity-7044000751215374336-saMt?utm_source=share&utm_medium=member_desktop"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="24"
+												height="24"
+												viewBox="0 0 24 24"
+											>
+												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+											</svg>
+										</a>
+									</div>
 								</div>
 								<video src={smeco} controls autoPlay loop muted />
 							</div>
@@ -132,6 +170,29 @@ const ProjectContainer = () => {
 											<li></li>
 										</ul>
 									</p>
+									<div className="icon-links">
+										<a
+											href="https://github.com/RebeccaRBell/travel_bucket_list"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<img src={github} alt="github logo" />
+										</a>
+										<a
+											href="https://www.linkedin.com/posts/rebeccarbell_python-flask-juniordev-activity-7041837320483807232-pibi?utm_source=share&utm_medium=member_desktop"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="24"
+												height="24"
+												viewBox="0 0 24 24"
+											>
+												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+											</svg>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -144,6 +205,6 @@ const ProjectContainer = () => {
 			<Footer />
 		</div>
 	);
-}
+};
 
 export default ProjectContainer;

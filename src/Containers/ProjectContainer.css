@@ -153,8 +153,8 @@ font-family: 'Montserrat',
         flex-direction: column;
         justify-content: center;
 }
-
-.links img {
+.icon-links img, .icon-links svg {
         width: 30px;
-        
+        height: 30px;
+        margin-left: 10px;
 }

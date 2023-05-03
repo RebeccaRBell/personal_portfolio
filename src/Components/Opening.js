@@ -2,6 +2,10 @@ import React from 'react'
 import './Opening.css';
 
 export const Opening = () => {
+
+  
+
+
   return (
     <div className='opening'>
     <div className='initial-backing'>

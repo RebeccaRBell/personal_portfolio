@@ -27,7 +27,18 @@ sans-serif; */
         background-color: var(--background-color);
         padding: 0px;
         margin: 0 auto;
+        animation-name: homepage;
+        animation-duration: 3s;
 
+}
+@keyframes homepage {
+        0%{
+                opacity: 0%;
+        }
+        100%{
+                opacity: 100%;
+        }
+        
 }
 
 
@@ -55,7 +66,7 @@ sans-serif; */
         background-color: var(--contrast-color);
         animation-name: second-line;
         animation-duration: 3s;
-        animation-delay: 1s;
+        animation-delay: 2s;
         animation-fill-mode: forwards;
 }
 @keyframes first-line {
@@ -78,7 +89,7 @@ sans-serif; */
         
                 100% {
                         opacity: 100%;
-                        height: 700px;
+                        height: 680px;
                         background-color: var(--contrast-color);
                 }
         
@@ -103,7 +114,7 @@ sans-serif; */
                 }
         100%{
                 opacity: 100%;
-                width: 1300px;
+                width: 1150px;
                 background-color: var(--contrast-color);
         }
 }
