@@ -40,7 +40,7 @@ sans-serif; */
 }
 .cv-body{
         animation-name: cv-body;
-                animation-duration: 1s;
+                animation-duration: 2s;
 }
 .cv-body h1 {
         color: var(--pink);

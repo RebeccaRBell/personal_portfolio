@@ -30,7 +30,7 @@ font-family: 'Poppins', sans-serif;
 
 .project-body {
         animation-name: project-body;
-                animation-duration: 1s;
+                animation-duration: 2s;
 }
 
 @keyframes project-body {

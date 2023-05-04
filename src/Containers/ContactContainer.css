@@ -23,12 +23,12 @@ sans-serif; */
         font-family: 'Poppins', sans-serif;
         text-align: center;
         padding: 0px;
-        height: 110vh;
+        height: 100vh;
 }
 .contact-body{
         animation-name: contact-body;
-        animation-duration: 1s;
-        height: 100vh;
+        animation-duration: 2s;
+        height: 80vh;
 }
 @keyframes contact-body {
         0% {
@@ -51,13 +51,42 @@ sans-serif; */
 
 .contact-backing{
         width: 60%;
-        background-color: rgba(111, 181, 118, 0.506);
+        background-color: rgba(123, 182, 129, 0.75);
         margin: 0 auto;
+        margin-top: 10px;
         border-radius: 5px;
+        padding: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        
         }
 
-.contact-backing a {
+.contact-backing p {
+        color: var(--background-color);
+        font-size: 19px;
+        padding: 10px;
+}
+.icons-contact {
+        width: 30%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+
+}
+.icons-contact svg{
+        font-size: 40px;
+        color: var(--background-color)
+        
+}
+.icons-contact .github:hover{
+        color: var(--orange);
+        
+}
+.icons-contact .envelope:hover {
+        color: var(--pink);
+}
+.icons-contact .linkedin:hover {
         color: var(--blue);
-        font-weight: 600;
-        text-decoration: none;
 }
