@@ -258,7 +258,7 @@ sans-serif; */
                 .first-line {
                         height: 0px;
                         width: 2px;
-                        left: 7%;
+                        left: 5%;
                         top: 0px;
                         background-color: var(--contrast-color);
                         animation-name: first-line;
@@ -271,7 +271,7 @@ sans-serif; */
                         height: 2px;
                         width: 0px;
                         left: 0px;
-                        top: 65%;
+                        top: 70%;
                         position: absolute;
                         z-index: 2;
                         background-color: var(--contrast-color);
@@ -301,7 +301,7 @@ sans-serif; */
         
                         100% {
                                 opacity: 100%;
-                                height: 75%;
+                                height: 80%;
                                 background-color: var(--contrast-color);
                         }
         
@@ -336,6 +336,9 @@ sans-serif; */
                 .intro {
                         width: 100%;
                         height: 100vh;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: center;
         
                 }
         
@@ -347,7 +350,7 @@ sans-serif; */
                         padding: 0px;
                         margin: 0 auto;
                         text-align: center;
-                        padding-top: 240px;
+                        padding-top: 70%;
                         color: var(--contrast-color);
         
                 }
@@ -378,58 +381,52 @@ sans-serif; */
                 .icons .fa-circle-user,
                 .icons .fa-square-phone-flip {
                         color: var(--contrast-color);
-                        font-size: 15px;
+                        font-size: 19px;
                 }
         
                 .icons .fa-file {
                         color: var(--contrast-color);
-                        font-size: 15px;
-                        width: 15px;
-                        height: 15px;
+                        font-size: 19px;
+                        width: 19px;
+                        height: 19px;
                 }
         
                 .project-icon {
                         margin: 0 auto;
                 }
         
-                .project-icon :hover {
+                .icons .project-icon :hover {
                         color: var(--background-color);
-                        background-color: var(--blue);
-                        border-radius: 50px;
-                        margin-top: -12px;
-                        padding: 12px;
-                        cursor: pointer;
+                        background-color: var(--background-color);
+                        border-radius: 0px;
+                        margin-top: 0px;
+                        padding: 0px;
         
                 }
         
                 .icons .fa-circle-user:hover {
                         color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--orange);
-                        margin-top: -12px;
-                        padding: 12px;
-                        cursor: pointer;
+                                background-color: var(--background-color);
+                                border-radius: 0px;
+                                margin-top: 0px;
+                                padding: 0px;
                 }
         
                 .icons .fa-file:hover {
                         color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--pink);
-                        margin-top: -12px;
-                        padding: 12px;
-                        cursor: pointer;
+                                background-color: var(--background-color);
+                                border-radius: 0px;
+                                margin-top: 0px;
+                                padding: 0px;
                 }
         
                 .icons .fa-square-phone-flip:hover {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--green);
-                        margin-top: -12px;
-                        padding: 15px;
-                        cursor: pointer;
+                color: var(--background-color);
+                        background-color: var(--background-color);
+                        border-radius: 0px;
+                        margin-top: 0px;
+                        padding: 0px;
+                        border: none;
                 }
         
         
@@ -449,12 +446,11 @@ sans-serif; */
                 }
         
                 .icons div {
-                        margin: 15px;
+                        margin: 13px;
                 }
         
                 .links div {
-                        margin: 25px;
-                        margin-top: -100px;
+                       display: none;
         
                 }
         
