@@ -2,7 +2,6 @@ import React from 'react'
 import NavBar from '../Components/NavBar'
 import './ContactContainer.css'
 import Footer from '../Components/Footer'
-import ReactDOM from 'react-dom';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +9,7 @@ import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 const ContactContainer = () => {
-  const email = 'rebeccaromanobell@gmail.com';
+  const email = "rebeccaromanobell@gmail.com";
   return (
 		<div className="contact-container">
 			<NavBar />
@@ -36,7 +35,7 @@ const ContactContainer = () => {
 						>
 							<FontAwesomeIcon icon={faGithub} className="github" />
 						</a>
-						<a href="mailto:${email}" target="_blank" rel="noreferrer">
+						<a href={`mailto:${email}`} target="_blank" rel="noreferrer">
 							<FontAwesomeIcon icon={faSquareEnvelope} className="envelope" />
 						</a>
 					</div>
