@@ -90,3 +90,85 @@ sans-serif; */
 .icons-contact .linkedin:hover {
         color: var(--blue);
 }
+
+@media (max-width: 600px) {
+        .contact-container {
+                        font-family: 'Poppins', sans-serif;
+                        text-align: center;
+                        padding: 0px;
+                        height: 100vh;
+                }
+        
+                .contact-body {
+                        animation-name: contact-body;
+                        animation-duration: 2s;
+                        height: 80vh;
+                        margin-top: 30px;
+                }
+        
+                @keyframes contact-body {
+                        0% {
+                                opacity: 0%;
+                        }
+        
+                        100% {
+                                opacity: 100%;
+                        }
+                }
+        
+                .contact-body h1 {
+                        color: var(--green);
+                        font-weight: 600;
+                        font-size: 30px;
+                        text-align: center;
+                        margin: 0 auto;
+                        padding: 10px;
+        
+                }
+        
+                .contact-backing {
+                        width: 70%;
+                        background-color: rgba(123, 182, 129, 0.75);
+                        margin: 0 auto;
+                        margin-top: 10px;
+                        border-radius: 5px;
+                        padding: 10px;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: center;
+                        align-items: center;
+        
+                }
+        
+                .contact-backing p {
+                        color: var(--background-color);
+                        font-size: 15px;
+                        padding: 10px;
+                }
+        
+                .icons-contact {
+                        width: 50%;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: space-around;
+        
+                }
+        
+                .icons-contact svg {
+                        font-size: 25px;
+                        color: var(--background-color)
+                }
+        
+                .icons-contact .github:hover {
+                        color: var(--orange);
+        
+                }
+        
+                .icons-contact .envelope:hover {
+                        color: var(--pink);
+                }
+        
+                .icons-contact .linkedin:hover {
+                        color: var(--blue);
+                }
+}
