@@ -79,7 +79,7 @@ font-family: 'Montserrat',
 }
 .project-flex {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow:  nowrap;
 }
 .project-one-header h3 {
         font-size: 30px;
@@ -157,4 +157,163 @@ font-family: 'Montserrat',
         width: 30px;
         height: 30px;
         margin-left: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+        .project-container {
+                        font-family: 'Poppins', sans-serif;
+                        background-color: var(--background-color);
+                        height: 100%;
+                        width: 100%;
+        
+                }
+        
+                .project-body {
+                        animation-name: project-body;
+                        animation-duration: 2s;
+                }
+        
+                @keyframes project-body {
+                        0% {
+                                opacity: 0%;
+                        }
+        
+                        100% {
+                                opacity: 100%;
+                        }
+                }
+        
+                .project-body h1 {
+                        
+                        color: var(--blue);
+                        font-weight: 600;
+                        font-size: 30px;
+                        text-align: center;
+                        margin: 0 auto;
+                        padding: 10px;
+        
+                }
+                .project-body{
+                        margin-top: 80px;
+                }
+        
+                .projects {
+                        width: 90%;
+                        margin: 0 auto;
+                }
+        
+                .project {
+                        margin-top: 30px;
+                        border-radius: 1px;
+        
+                }
+        
+                .project video{
+                        width: 90%;
+                        border-radius: 5px;
+                }
+        
+                .project-flex {
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: center;
+                        align-items: center;
+                }
+        
+                .project-one-header h3 {
+                        font-size: 20px;
+                        font-weight: 300;
+                        text-align: center;
+                        padding: 5px;
+                        margin: 0 auto;
+                        color: var(--blue)
+                }
+        
+                .project-one {
+                        border: 2px solid var(--blue);
+                        border-radius: 15px;
+                        padding: 20px;
+                }
+        
+                .project-one-text {
+                        width: 100%;
+                        text-align: center;
+                        padding: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        font-size: 12px;
+                }
+        
+                .project ul {
+                        list-style-type: none;
+                        padding: 0px;
+                }
+        
+                .project-two {
+                        border: 2px solid var(--orange);
+                        border-radius: 15px;
+                        padding: 10px;
+                }
+        
+                .project-two-header h3 {
+                        font-size: 20px;
+                        font-weight: 300;
+                        text-align: center;
+                        padding: 15px;
+                        margin: 0 auto;
+                        color: var(--orange);
+                }
+        
+                .project-two-text {
+                        width: 100%;
+                        text-align: center;
+                        padding: 5px;
+                        font-size: 12px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                }
+        
+        
+                .project ul {
+                        list-style-type: none;
+                }
+        
+                .summit video {
+                        width: 95%;
+                        padding-top: 5%;
+                }
+        
+                .project-one.summit-project {
+                        border: 2px solid var(--green);
+                        border-radius: 15px;
+                        padding: 30px;
+                }
+        
+                .project-one-header,
+                .summit-header h3 {
+                        color: var(--green)
+                }
+        
+                .project-one-text.summit-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                }
+        
+                .icon-links img,
+                .icon-links svg {
+                        width: 18px;
+                        height: 18px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                }
+
 }
