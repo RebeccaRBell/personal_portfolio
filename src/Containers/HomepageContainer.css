@@ -274,7 +274,7 @@ sans-serif; */
                                         height: 0.25%;
                                         width: 0%;
                                         left: 0%;
-                                        top: 75%;
+                                        top: 70%;
                                         position: absolute;
                                         z-index: 2;
                                         background-color: var(--contrast-color);
@@ -304,7 +304,7 @@ sans-serif; */
                 
                                         100% {
                                                 opacity: 100%;
-                                                height: 90%;
+                                                height: 80%;
                                                 background-color: var(--contrast-color);
                                         }
                 
@@ -354,7 +354,7 @@ sans-serif; */
                         padding: 0px;
                         margin: 0 auto;
                         text-align: center;
-                        padding-top: 20%;
+                        margin-top: -10%;
                         color: var(--contrast-color);
         
                 }
@@ -377,12 +377,11 @@ sans-serif; */
                         display: flex;
                         flex-flow: row nowrap;
                         justify-content: space-between;
-                        align-items: center;
                         width: 55%;
                         margin: 0 auto;
-                        margin-top: 10%;
+                        margin-top: 8%;
                 }
-        
+
                 .icons .fa-pencil,
                 .icons .fa-circle-user,
                 .icons .fa-square-phone-flip {
@@ -400,41 +399,6 @@ sans-serif; */
                 .project-icon {
                         margin: 0 auto;
                 }
-        
-                .icons .project-icon :hover {
-                        color: var(--background-color);
-                        background-color: var(--background-color);
-                        border-radius: 0px;
-                        margin-top: 0px;
-                        padding: 0px;
-        
-                }
-        
-                .icons .fa-circle-user:hover {
-                        color: var(--background-color);
-                                background-color: var(--background-color);
-                                border-radius: 0px;
-                                margin-top: 0px;
-                                padding: 0px;
-                }
-        
-                .icons .fa-file:hover {
-                        color: var(--background-color);
-                                background-color: var(--background-color);
-                                border-radius: 0px;
-                                margin-top: 0px;
-                                padding: 0px;
-                }
-        
-                .icons .fa-square-phone-flip:hover {
-                color: var(--background-color);
-                        background-color: var(--background-color);
-                        border-radius: 0px;
-                        margin-top: 0px;
-                        padding: 0px;
-                        border: none;
-                }
-        
         
                 .links {
                         display: none;
@@ -464,14 +428,16 @@ sans-serif; */
                         text-decoration: none;
                         color: var(--contrast-color);
                         align-self: center;
+                        margin: 0px;
+                        padding: 0px;
                 }
-        
+
                 .project-link,
                 .about-link,
                 .contact-link,
                 .cv-link {
                         width: 30px;
-                        height: 100px;
+                        height: 30px;
                         display: flex;
                         flex-direction: row nowrap;
                         justify-content: center;

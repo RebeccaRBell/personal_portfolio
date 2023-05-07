@@ -243,54 +243,22 @@ color: var(--background-color);
                 }
         
                 .nav-list .fa-house:hover {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--yellow);
-                        cursor: pointer;
-                        padding: 10px;
-                        margin: -10px;
+                       display: none;
                 }
         
                 .nav-list .fa-pencil:hover {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--blue);
-                        cursor: pointer;
-                        padding: 10px;
-                        margin: -10px;
+                        display: none;
                 }
         
                 .nav-list .fa-circle-user:hover {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--orange);
-                        cursor: pointer;
-                        padding: 10px;
-                        margin: -10px;
+                       display: none;
                 }
         
-                .highlight-cv.active .fa-file {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--pink);
-                        cursor: pointer;
-                        padding: 5px 5px 5px 5.5px;
-                        margin: -5px -5px -5px -4.5px;
-                        width: 10px;
-                        height: 10px;
+                .highlight-cv.active .fa-file:hover {
+                       display: none;
                      }
                 .nav-list .fa-square-phone-flip:hover {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--green);
-                        cursor: pointer;
-                        padding: 10px;
-                        margin: -10px;
+                        display: none;
                 }
         
                 .highlight-project.active .fa-pencil {
@@ -314,17 +282,17 @@ color: var(--background-color);
                         margin: -5px;
                 }
         
-                .highlight-cv.active .fa-file {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50px;
-                        background-color: var(--pink);
-                        cursor: pointer;
-                        padding: 4px;
-                        margin: 0px;
-                        width: 17px;
-                        height: 17px;
-                }
+.highlight-cv.active .fa-file {
+        color: var(--background-color);
+        margin: 0 auto;
+        border-radius: 50px;
+        background-color: var(--pink);
+        cursor: pointer;
+        padding: 5px 4.5px 5px 5.5px;
+        margin: -5px -5px -5px -7px;
+        width: 23px;
+        height: 23px;
+}
         
                 .highlight-contact.active .fa-square-phone-flip {
                         color: var(--background-color);
