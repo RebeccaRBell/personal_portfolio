@@ -252,7 +252,6 @@ sans-serif; */
                 .coding-experience {
                         width: 90%;
                         margin: 0 auto;
-                        margin-right: 10px;
                 }
         
                 .row-one-container h3,
@@ -265,7 +264,7 @@ sans-serif; */
         
                 .languages {
                         width: 90%;
-                        margin-left: 10px;
+                        margin-left: 0px;
         
         
         
@@ -312,7 +311,6 @@ sans-serif; */
                 .certificates {
                         margin: 0 auto;
                         width: 90%;
-                        margin-right: 10px;
                 }
         
                 .certificates img {
@@ -335,7 +333,7 @@ sans-serif; */
         
                 .education {
                         width: 90%;
-                        margin-left: 10px;
+                        margin-left: 0px;
                 }
         
                 .education ul {
