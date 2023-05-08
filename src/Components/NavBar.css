@@ -230,22 +230,22 @@ color: var(--background-color);
         
                 }
         
-                .nav-list .fa-house:hover {
+                .nav-list.fa-house:hover {
                        display: none;
                 }
         
-                .nav-list .fa-pencil:hover {
+                .nav-list.fa-pencil:hover {
                         display: none;
                 }
         
-                .nav-list .fa-circle-user:hover {
+                .nav-list.fa-circle-user:hover {
                        display: none;
                 }
         
-                .highlight-cv.active .fa-file:hover {
+                .highlight-cv.active.fa-file:hover {
                        display: none;
                      }
-                .nav-list .fa-square-phone-flip:hover {
+                .nav-list.fa-square-phone-flip:hover {
                         display: none;
                 }
         
