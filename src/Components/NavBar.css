@@ -278,7 +278,8 @@ color: var(--background-color);
         cursor: pointer;
         padding: 4px;
         margin: -4px;
-        font-size: 18px;
+        width: 15px;
+        height: 15px;
 }
         
                 .highlight-contact.active.fa-square-phone-flip {
