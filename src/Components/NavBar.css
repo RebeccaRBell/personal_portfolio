@@ -217,14 +217,14 @@ color: var(--background-color);
                 .nav-list .fa-pencil,
                 .nav-list .fa-circle-user,
                 .nav-list .fa-square-phone-flip {
-                        font-size: 22px;
+                        font-size: 20px;
                         color: var(--contrast-color);
                         text-align: center;
         
                 }
         
                 .nav-list .fa-file {
-                        font-size: 22px;
+                        font-size: 19px;
                         color: var(--contrast-color);
                         text-align: center;
         
@@ -270,16 +270,16 @@ color: var(--background-color);
                         margin: -5px;
                 }
         
-.highlight-cv.active.fa-file {
+.highlight-cv.active .fa-file {
         color: var(--background-color);
         margin: 0 auto;
         border-radius: 50%;
         background-color: var(--pink);
         cursor: pointer;
-        padding: 4px;
-        margin: -4px;
-        width: 15px;
-        height: 15px;
+        padding: 9px;
+        margin: -8px;
+        width: 17px;
+        height: 17px;
 }
         
                 .highlight-contact.active.fa-square-phone-flip {
