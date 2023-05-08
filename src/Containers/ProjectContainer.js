@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import "./ProjectContainer.css";
@@ -8,6 +8,24 @@ import summit from "../media/summit.mp4";
 import github from "../media/github.svg";
 
 const ProjectContainer = () => {
+
+	useEffect(() => {
+	autoplaySettings();
+	})
+
+	let autoplay; 
+	const autoplaySettings = () => {
+		const screenSize = window.innerWidth;
+		if (screenSize <= 800) {
+			autoplay = true;
+		} else {
+			autoplay = false;
+		}
+	}
+
+	
+
+	
 	return (
 		<div className="project-container">
 			<NavBar />
@@ -21,11 +39,11 @@ const ProjectContainer = () => {
 							</div>
 							<div className="project-flex summit">
 								<video
-									src={summit}
 									controls
-									autoPlay
 									loop
 									muted
+									autoPlay = {autoplay}
+									src={summit}
 									className="summit-vid"
 								/>
 								<div className="project-one-text summit-text">
@@ -140,7 +158,7 @@ const ProjectContainer = () => {
 										</a>
 									</div>
 								</div>
-								<video src={smeco} controls autoPlay loop muted />
+								<video src={smeco} controls loop muted />
 							</div>
 						</div>
 					</div>
@@ -150,7 +168,7 @@ const ProjectContainer = () => {
 								<h3>Travel Bucket List App</h3>
 							</div>
 							<div className="project-flex">
-								<video src={python} controls autoPlay loop muted />
+								<video src={python} controls loop muted />
 								<div className="project-one-text">
 									<h4>Python | SQL | Flask | Django</h4>
 									<p>
