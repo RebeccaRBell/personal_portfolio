@@ -445,5 +445,256 @@ sans-serif; */
                 }
 }
 
-@media (min-width: 1600px){
+@media (min-width: 600px) and (max-width: 900px){
+
+.homepage-container {
+                height: 100vh;
+                width: 100%;
+                position: relative;
+                z-index: 1;
+                top: 0px;
+                font-family: 'Poppins', sans-serif;
+                background-color: var(--background-color);
+                padding: 0px;
+                margin: 0 auto;
+                animation-name: homepage;
+                animation-duration: 3s;
+
+        }
+
+        @keyframes homepage {
+                0% {
+                        opacity: 0%;
+                }
+
+                100% {
+                        opacity: 100%;
+                }
+
+        }
+
+
+        .first-line {
+                height: 0px;
+                width: 0.4%;
+                position: absolute;
+                z-index: 2;
+                left: 10%;
+                top: 0%;
+                background-color: var(--contrast-color);
+                animation-name: first-line;
+                animation-duration: 3s;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+        }
+
+        .second-line {
+                height: 0.25%;
+                width: 0%;
+                left: 0%;
+                top: 75%;
+                position: absolute;
+                z-index: 2;
+                background-color: var(--contrast-color);
+                animation-name: second-line;
+                animation-duration: 3s;
+                animation-delay: 3s;
+                animation-fill-mode: forwards;
+        }
+
+        @keyframes first-line {
+                0% {
+                        opacity: 100%;
+                        background-color: var(--contrast-color);
+                }
+
+                25% {
+                        background-color: var(--orange);
+                }
+
+                50% {
+                        background-color: var(--blue)
+                }
+
+                75% {
+                        background-color: var(--pink);
+                }
+
+                100% {
+                        opacity: 100%;
+                        height: 90%;
+                        background-color: var(--contrast-color);
+                }
+
+        }
+
+
+        @keyframes second-line {
+                0% {
+                        opacity: 100%;
+                        background-color: var(--contrast-color);
+                }
+
+                25% {
+                        background-color: var(--orange);
+                }
+
+                50% {
+                        background-color: var(--blue)
+                }
+
+                75% {
+                        background-color: var(--pink);
+                }
+
+                100% {
+                        opacity: 100%;
+                        width: 80%;
+                        background-color: var(--contrast-color);
+                }
+        }
+
+        .intro {
+                width: 100%;
+                height: 100vh;
+
+        }
+
+        .intro h1 {
+
+                font-family: 'Poppins', sans-serif;
+                font-weight: 200;
+                font-size: 50px;
+                padding: 0px;
+                margin: 0 auto;
+                text-align: center;
+                padding-top: 240px;
+                color: var(--contrast-color);
+
+        }
+
+
+
+        .intro h3 {
+                font-weight: 100;
+                font-size: 23px;
+                letter-spacing: 2px;
+                text-align: center;
+                margin: 0 auto;
+                padding: 0px;
+                color: var(--contrast-color);
+
+
+        }
+
+        .icons {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                margin-top: 40px;
+                align-items: center;
+        }
+
+        .icons .fa-pencil,
+        .icons .fa-circle-user,
+        .icons .fa-square-phone-flip {
+                color: var(--contrast-color);
+                font-size: 27px;
+        }
+
+        .icons .fa-file {
+                color: var(--contrast-color);
+                font-size: 27px;
+                width: 27px;
+                height: 27px;
+        }
+
+        .project-icon {
+                margin: 0 auto;
+        }
+
+        .project-icon :hover {
+                color: var(--background-color);
+                background-color: var(--blue);
+                border-radius: 50px;
+                margin-top: -12px;
+                padding: 12px;
+                cursor: pointer;
+
+        }
+
+        .icons .fa-circle-user:hover {
+                color: var(--background-color);
+                margin: 0 auto;
+                border-radius: 50px;
+                background-color: var(--orange);
+                margin-top: -12px;
+                padding: 12px;
+                cursor: pointer;
+        }
+
+        .icons .fa-file:hover {
+                color: var(--background-color);
+                margin: 0 auto;
+                border-radius: 50px;
+                background-color: var(--pink);
+                margin-top: -12px;
+                padding: 12px;
+                cursor: pointer;
+        }
+
+        .icons .fa-square-phone-flip:hover {
+                color: var(--background-color);
+                margin: 0 auto;
+                border-radius: 50px;
+                background-color: var(--green);
+                margin-top: -12px;
+                padding: 15px;
+                cursor: pointer;
+        }
+
+
+        .links {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+        }
+
+        .links:hover {
+                cursor: pointer;
+        }
+
+        .links h2 {
+                font-weight: 400;
+                font-size: 18px;
+        }
+
+        .icons div {
+                margin: 25px;
+        }
+
+        .links div {
+                margin: 25px;
+                margin-top: -100px;
+
+        }
+
+        .links .link {
+                text-decoration: none;
+                color: var(--contrast-color);
+                align-self: center;
+        }
+
+        .project-link,
+        .about-link,
+        .contact-link,
+        .cv-link {
+                width: 70px;
+                height: 100px;
+                display: flex;
+                flex-direction: row nowrap;
+                justify-content: center;
+                margin: 0 auto;
+        }
+
 }
