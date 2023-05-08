@@ -703,3 +703,9 @@ sans-serif; */
         }
 
 }
+
+@media (max-height: 600px) {
+        .second-line {
+                display: none;
+        }
+}
