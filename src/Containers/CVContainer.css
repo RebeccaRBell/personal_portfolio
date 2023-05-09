@@ -196,6 +196,7 @@ sans-serif; */
                 .cv-body {
                         animation-name: cv-body;
                         animation-duration: 2s;
+                        margin-top: 30px;
                 }
         
                 .cv-body h1 {
