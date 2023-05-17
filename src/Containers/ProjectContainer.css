@@ -334,5 +334,12 @@ a {
                         margin-left: 10px;
                         margin-right: 10px;
                 }
+                .weather-text .icon-links{
+                        flex-flow: row nowrap;
+                        justify-content: center;
+                }
+                video {
+                        margin: 5% 0% 5% 0%;
+                }
 
 }
