@@ -40,6 +40,8 @@ const CVContainer = () => {
       <ul>
         <li> - Accredited Software Development Bootcamp teaching Python, JavaScript, React, Java, Spring, SQL, MongoDB, Flask, and Express.js</li>
         <li> - Designed and programmed a solo full-stack Python project, a group full-stack JS/React project, and a group full-stack Java & React project</li>
+        <li> - Experience working with RESTful APIs</li>
+        <li> - Worked using TDD first practices</li>
       </ul>
       </div>
       <div className='coding-experience-section'>
