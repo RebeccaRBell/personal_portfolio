@@ -148,10 +148,22 @@ font-family: 'Montserrat',
         color: var(--green)
         
 }
+
 .project-one-text.summit-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
+}
+
+.project-two-header,
+.weather-header h3 {
+        color: var(--pink)
+}
+
+.project-two.weather-project {
+        border: 3px solid var(--pink);
+        border-radius: 15px;
+        padding: 30px;
 }
 .icon-links img, .icon-links svg {
         width: 30px;

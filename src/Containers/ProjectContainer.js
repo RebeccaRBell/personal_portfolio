@@ -6,6 +6,7 @@ import python from "../media/python.mp4";
 import smeco from "../media/smeco.mp4";
 import summit from "../media/summit.mp4";
 import github from "../media/github.svg";
+import weather from '../media/weather.mp4';
 
 const ProjectContainer = () => {
 
@@ -214,11 +215,71 @@ const ProjectContainer = () => {
 							</div>
 						</div>
 					</div>
+					<div className="project">
+						<div className="project-two weather-project">
+							<div className="project-two-header weather-header">
+								<h3>Weather Forecast App</h3>
+							</div>
+							<div className="project-flex">
+								<div className="project-two-text weather-text">
+									<h4>React | OpenWeather API</h4>
+									<p>
+										This app was created originally created during my time
+										studying with SheCodes on their React course.
+										<br />
+										After graduating from CodeClan I decided to give the project
+										a refresh and restyle to update it with what I'd learned
+										more recently.
+										<ul>
+											Features include:
+											<li>
+												View current temperature, weather description, humidity
+												and wind speed for any searched city
+											</li>
+											<li>
+												Change current temperature between celsius and
+												fahrenheit units{" "}
+											</li>
+											<li>
+												View 5-day forecast for any searched city including
+												weather symbol, max and min temperatures
+											</li>
+											<li>
+												See when the weather data was last updated for the
+												searched city
+											</li>
+										</ul>
+									</p>
+									<div className="icon-links">
+										<a
+											href="https://github.com/RebeccaRBell/weatherapp2.0"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<img src={github} alt="github logo" />
+										</a>
+										<a
+											href="https://www.linkedin.com/feed/update/urn:li:activity:7064277262849720320/"
+											target="_blank"
+											rel="noreferrer"
+										>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="24"
+												height="24"
+												viewBox="0 0 24 24"
+											>
+												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+											</svg>
+										</a>
+									</div>
+								</div>
+								<video src={weather} controls loop muted autoPlay={autoplay} />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-
-			<div className="project"></div>
-			<div className="project"></div>
 			<Footer />
 		</div>
 	);
