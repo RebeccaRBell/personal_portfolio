@@ -166,9 +166,16 @@ font-family: 'Montserrat',
         padding: 30px;
 }
 .icon-links img, .icon-links svg {
-        width: 30px;
-        height: 30px;
-        margin-left: 10px;
+        width: 25px;
+        height: 25px;
+        margin-left: 15px;
+}
+.weather-project .icon-links{
+        display: flex;
+}
+a {
+        text-decoration: none;
+        color: black;
 }
 
 
