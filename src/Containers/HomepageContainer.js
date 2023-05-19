@@ -58,76 +58,63 @@ const HomepageContainer = () => {
 				<h1>Rebecca Bell</h1>
 				<h3>Junior Software Developer</h3>
 				<div className="icons">
-					<div
-						className="project-link"
-						onMouseOver={mouseHoverProject}
-						onMouseLeave={mouseLeaveProject}
-					>
-						<Link to="/projects" className="link project-icon">
+					<div className="project-link">
+						<Link
+							to="/projects"
+							className="link project-icon"
+							onMouseOver={mouseHoverProject}
+							onMouseLeave={mouseLeaveProject}
+						>
 							<FontAwesomeIcon icon="fa-solid fa-pencil" />
 						</Link>
 					</div>
-					<div
-						className="about-link"
-						onMouseOver={mouseHoverAbout}
-						onMouseLeave={mouseLeaveAbout}
-					>
-						<Link to="/about" className="link about-icon">
+					<div className="about-link">
+						<Link
+							to="/about"
+							className="link about-icon"
+							onMouseOver={mouseHoverAbout}
+							onMouseLeave={mouseLeaveAbout}
+						>
 							<FontAwesomeIcon icon="fa-solid fa-circle-user" />
 						</Link>
 					</div>
-					<div
-						className="cv-link"
-						onMouseOver={mouseHoverCV}
-						onMouseLeave={mouseLeaveCV}
-					>
-						<Link to="/cv" className="link cv-icon">
+					<div className="cv-link">
+						<Link
+							to="/cv"
+							className="link cv-icon"
+							onMouseOver={mouseHoverCV}
+							onMouseLeave={mouseLeaveCV}
+						>
 							<FontAwesomeIcon icon="fa-solid fa-file" />
 						</Link>
 					</div>
-					<div
-						className="contact-link"
-						onMouseOver={mouseHoverContact}
-						onMouseLeave={mouseLeaveContact}
-					>
-						<Link to="/contact">
+					<div className="contact-link">
+						<Link
+							to="/contact"
+							onMouseOver={mouseHoverContact}
+							onMouseLeave={mouseLeaveContact}
+						>
 							<FontAwesomeIcon icon="fa-solid fa-square-phone-flip" />
 						</Link>
 					</div>
 				</div>
 				<div className="links">
-					<div
-						className="project-link"
-						onMouseOver={mouseHoverProject}
-						onMouseLeave={mouseLeaveProject}
-					>
+					<div className="project-link">
 						<Link to="/projects" className="link">
 							{hoverProject === true ? <h2>Projects</h2> : null}
 						</Link>
 					</div>
-					<div
-						className="about-link"
-						onMouseOver={mouseHoverAbout}
-						onMouseLeave={mouseLeaveAbout}
-					>
+					<div className="about-link">
 						<Link to="/about" className="link">
 							{hoverAbout === true ? <h2>About</h2> : null}
 						</Link>
 					</div>
-					<div
-						className="cv-link"
-						onMouseOver={mouseHoverCV}
-						onMouseLeave={mouseLeaveCV}
-					>
+					<div className="cv-link">
 						<Link to="#contact" className="link">
 							{hoverCV === true ? <h2>CV</h2> : null}
 						</Link>
 					</div>
-					<div
-						className="contact-link"
-						onMouseOver={mouseHoverContact}
-						onMouseLeave={mouseLeaveContact}
-					>
+					<div className="contact-link">
 						<Link to="/contact" className="link">
 							{hoverContact === true ? <h2>Contact</h2> : null}
 						</Link>

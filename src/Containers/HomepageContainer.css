@@ -178,7 +178,7 @@ sans-serif; */
         margin: 0 auto;
 }
 
-.project-icon :hover{
+.link.project-icon :hover{
         color: var(--background-color);
         background-color: var(--blue);
         border-radius: 50px;
@@ -221,9 +221,7 @@ sans-serif; */
         flex-flow: row nowrap;
         justify-content: center;
 }
-.links:hover {
-        cursor: pointer;
-}
+
 .links h2{
         font-weight: 400;
         font-size: 18px;
