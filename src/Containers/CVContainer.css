@@ -42,6 +42,41 @@ sans-serif; */
         animation-name: cv-body;
                 animation-duration: 2s;
 }
+.header-and-download {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+
+}
+
+.download-link-container{
+        width: 90%;
+        margin: 0 auto;
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        position: absolute;
+        z-index: 3;
+}
+.pdf-link {
+        color: var(--contrast-color);
+        font-weight: 500;
+        width: 100%;
+        text-align: right;
+        
+}
+.pdf-link .download-icon {
+        color: var(--pink);
+        font-size: 30px;
+        opacity: 0.9;
+}
+.pdf-link .download-icon:hover{
+        opacity: 1;
+        color: rgb(123, 117, 117);
+}
+
 .cv-body h1 {
         color: var(--pink);
         font-weight: 600;
