@@ -39,9 +39,11 @@ sans-serif; */
                 opacity: 100%;
         }
 }
+
+
 .contact-body h1{
         color: var(--green);
-                font-weight: 600;
+                font-weight: 200;
                 font-size: 60px;
                 text-align: center;
                 margin: 0 auto;
@@ -49,11 +51,15 @@ sans-serif; */
         
         }
 
+.header {
+        padding-bottom: 30px;
+}
+
 .contact-backing{
         width: 60%;
         background-color: rgba(123, 182, 129, 0.75);
         margin: 0 auto;
-        margin-top: 10px;
+        margin-top:20px;
         border-radius: 5px;
         padding: 20px;
         display: flex;

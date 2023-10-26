@@ -44,7 +44,7 @@ font-family: 'Poppins', sans-serif;
 }
 .project-body h1{
         color: var(--blue);
-        font-weight: 600;
+        font-weight: 200;
         font-size: 60px;
         text-align: center;
        margin: 0 auto;
@@ -64,6 +64,10 @@ font-family: 'Montserrat',
                 sans-serif;
 
 } */
+
+.header {
+        padding-bottom: 30px;
+}
 .projects {
         width: 80%;
         margin: 0 auto;
@@ -72,6 +76,14 @@ font-family: 'Montserrat',
         margin-top: 40px;
         border-radius: 15px;
        
+}
+.project h4 {
+        font-weight: 500;
+        font-size: 1em;
+        color: darkslategrey
+}
+.project p {
+        font-size: 1em;
 }
 .project video {
         width: 50%;

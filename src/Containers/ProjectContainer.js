@@ -32,7 +32,9 @@ const ProjectContainer = () => {
 		<div className="project-container">
 			<NavBar />
 			<div className="project-body">
+			<div className="header">
 				<h1>Projects</h1>
+				</div>
 				<div className="projects">
 					<div className="project">
 						<div className="project-one summit-project">

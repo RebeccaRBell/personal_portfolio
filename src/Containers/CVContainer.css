@@ -48,6 +48,7 @@ sans-serif; */
         display: flex;
         flex-flow: row;
         align-items: center;
+        padding-bottom: 30px;
 
 }
 
@@ -79,7 +80,7 @@ sans-serif; */
 
 .cv-body h1 {
         color: var(--pink);
-        font-weight: 600;
+        font-weight: 200;
         font-size: 60px;
         text-align: center;
         margin: 0 auto;
@@ -112,7 +113,7 @@ sans-serif; */
 
  .row-one-container ul{
         margin: 0 auto;
-        padding: 5px;
+        padding: 15px;
         line-height: 30px;
         text-align: left;
         list-style: none;
@@ -121,19 +122,20 @@ sans-serif; */
        
 }
 .coding-experience{
-        width: 65%;
+        width: 75%;
         margin: 0 auto;
         margin-right: 10px;
 }
 
 .row-one-container h3, .certificates h3, .education h3 {
+        font-weight: 500;
         color: rgba(189, 61, 78, 0.7);
         font-size: 22px;
         text-align: center;
 }
 
 .languages{
-        width: 35%;
+        width: 25%;
         margin-left: 10px;
         
         
@@ -197,7 +199,7 @@ sans-serif; */
         border-radius: 10px;
 }
 .education{
-        width: 35%;
+        width: 45%;
         margin-left: 10px;
 }
 .education ul {
@@ -293,6 +295,7 @@ sans-serif; */
                 .row-one-container h3,
                 .certificates h3,
                 .education h3 {
+                        font-weight: 500;
                         color: rgba(189, 61, 78, 0.7);
                         font-size: 22px;
                         text-align: center;

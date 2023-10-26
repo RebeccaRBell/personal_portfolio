@@ -1,47 +1,44 @@
-import React from 'react'
-import NavBar from '../Components/NavBar';
-import Footer from '../Components/Footer';
-import './CVContainer.css';
-import fcccert from '../media/fcccert.jpg';
-import shecodesbasic from '../media/shecodesbasic.png';
-import shecodesplus from '../media/shecodesplus.png'
-import shecodesresponsive from '../media/shecodesresponsive.png';
-import shecodesreact from '../media/shecodesreact.png';
-import pythonlogo from '../media/pythonlogo.png';
-import jslogo from '../media/jslogo.png';
-import reactlogo from '../media/reactlog.png';
-import javalogo from '../media/javalogo.png'
-import github from '../media/github.png';
-import git from '../media/git.png';
-import bootstrap from '../media/bootstrap.png';
-import idea from '../media/idea.png';
-import vscode from '../media/vscode.png';
-import node from '../media/node.png';
-import figma from '../media/figma.png';
-import css from '../media/css.png';
-import html from '../media/html.png';
-import flask from '../media/flask.png';
-import sql from '../media/sql.png';
-import mongo from '../media/mongo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
-
+import React from "react";
+import NavBar from "../Components/NavBar";
+import Footer from "../Components/Footer";
+import "./CVContainer.css";
+import fcccert from "../media/fcccert.jpg";
+import shecodesbasic from "../media/shecodesbasic.png";
+import shecodesplus from "../media/shecodesplus.png";
+import shecodesresponsive from "../media/shecodesresponsive.png";
+import shecodesreact from "../media/shecodesreact.png";
+import pythonlogo from "../media/pythonlogo.png";
+import jslogo from "../media/jslogo.png";
+import reactlogo from "../media/reactlog.png";
+import javalogo from "../media/javalogo.png";
+import github from "../media/github.png";
+import git from "../media/git.png";
+import bootstrap from "../media/bootstrap.png";
+import idea from "../media/idea.png";
+import vscode from "../media/vscode.png";
+import node from "../media/node.png";
+import figma from "../media/figma.png";
+import css from "../media/css.png";
+import html from "../media/html.png";
+import flask from "../media/flask.png";
+import sql from "../media/sql.png";
+import mongo from "../media/mongo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 
 const CVContainer = () => {
-
-  return (
+	return (
 		<div className="cv-container">
 			<NavBar />
 			<div className="cv-body">
 				<div className="header-and-download">
-						<h1>CV</h1>
+					<h1>CV</h1>
 					<div className="download-link-container">
-						<a 
+						<a
 							className="pdf-link"
 							href="/CV/RebeccaBellCV2023.pdf"
 							target="_blank"
 							rel="noreferrer"
-  
 						>
 							<FontAwesomeIcon
 								icon={faFileDownload}
@@ -53,6 +50,15 @@ const CVContainer = () => {
 				<div className="row-one-container">
 					<div className="coding-experience">
 						<h3>Coding Experience</h3>
+						<div className="coding-experience-section">
+							<h4>Software Engineer - Curaleaf International</h4>
+							<p>Aug 2023 - Current</p>
+							<ul>
+								<li> - Full-stack software engineering role working with various tech stacks across multiple applications</li>
+								<li> - Working with languages and libraries include Typescript, React, Python, Quart , Javascript and Firebase</li>
+								<li> - Tasks include updating, maintaining and building of new features to both the staff-facing and patient-facing applications</li>
+							</ul>
+						</div>
 						<div className="coding-experience-section">
 							<h4>CodeClan - Professional Software Development</h4>
 							<p>
@@ -172,6 +178,6 @@ const CVContainer = () => {
 			<Footer />
 		</div>
 	);
-}
+};
 
 export default CVContainer;

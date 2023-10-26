@@ -1,24 +1,27 @@
-import React from 'react'
-import NavBar from '../Components/NavBar'
-import './ContactContainer.css'
-import Footer from '../Components/Footer'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
-
+import React from "react";
+import NavBar from "../Components/NavBar";
+import "./ContactContainer.css";
+import Footer from "../Components/Footer";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const ContactContainer = () => {
-  const email = "rebeccaromanobell@gmail.com";
-  return (
+	const email = "rebeccaromanobell@gmail.com";
+	return (
 		<div className="contact-container">
 			<NavBar />
 			<div className="contact-body">
-				<h1>Contact Me</h1>
+				<div className="header">
+					<h1>Contact Me</h1>
+				</div>
 				<div className="contact-backing">
 					<p>
 						{" "}
-						If you'd like to get in touch, please don't hesitate to contact me through the options below (plus a link to my github for good measure)!
+						If you'd like to get in touch, please don't hesitate to contact me
+						through the options below (plus a link to my github for good
+						measure)!
 					</p>
 					<div className="icons-contact">
 						<a
@@ -44,6 +47,6 @@ const ContactContainer = () => {
 			<Footer />
 		</div>
 	);
-}
+};
 
 export default ContactContainer;
