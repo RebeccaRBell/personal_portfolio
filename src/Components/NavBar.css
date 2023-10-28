@@ -10,322 +10,312 @@ font-family: 'Red Hat Text',
 sans-serif; */
 
 :root {
-        --contrast-color: rgb(18, 18, 18);
-        --background-color: rgb(253, 253, 255);
-        --blue: rgb(102, 153, 184);
-        --pink: rgb(189, 61, 78);
-        --orange: rgb(216, 115, 57);
-        --green: rgb(111, 181, 118);
-        --yellow: rgb(243, 203, 45);
-
+	--contrast-color: rgb(18, 18, 18);
+	--background-color: rgb(253, 253, 255);
+	--blue: rgb(102, 153, 184);
+	--pink: rgb(189, 61, 78);
+	--orange: rgb(216, 115, 57);
+	--green: rgb(111, 181, 118);
+	--yellow: rgb(243, 203, 45);
 }
 .nav-bar {
-        width: 100%;
-        height: 120px;
-        margin: 0 auto;
-        padding: 0px;
-        background-color:transparent;
-        display: flex;
-        flex-direction: row nowrap;
-        align-items: center;
-        justify-content: flex-end;
-
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row nowrap;
+	align-items: center;
+	justify-content: flex-end;
 }
 
-.name-logo{
-        font-size: 50px;
-font-family: 'Montserrat',
-                sans-serif;
-        font-weight: 200;
-        display: flex;
-        flex-flow: row nowrap;
-        margin-left: 50px;
-        position: relative;
-        color: var(--contrast-color);
-
+.name-logo {
+	font-size: 50px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 200;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-left: 50px;
+	position: relative;
+	color: var(--contrast-color);
 }
 .nav-bar a {
-        text-decoration: none;
-        color: var(--background-color);
+	text-decoration: none;
+	color: var(--background-color);
 }
-.letter-r{
-transform: scale(-1, 1);
-margin-left: 0px;
+.letter-r {
+	transform: scale(-1, 1);
+	margin-left: 0px;
 }
 .letter-b {
-        margin-left: -14px;
+	margin-left: -14px;
 }
 
-.nav-list{
-        width: 100%;
-        list-style: none;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        margin: 0 auto;
-font-family: 'Red Hat Text',
-                sans-serif;
-        font-weight: 400;
-        margin-right: 60px;
+.nav-list {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	margin: 0 auto;
+	font-family: "Red Hat Text", sans-serif;
+	font-weight: 400;
+	margin-right: 60px;
 }
 .nav-list li {
-        margin: 35px;
+	margin: 35px;
 }
 .nav-list a {
-        text-decoration: none;
-        color: rgb(177, 65, 65);
+	text-decoration: none;
+	color: rgb(177, 65, 65);
 }
- .nav-list .fa-house,  .nav-list .fa-pencil,  .nav-list .fa-circle-user,  .nav-list .fa-square-phone-flip {
-        font-size: 25px;
-        color: var(--contrast-color);
-        text-align: center;
-        
+.nav-list .fa-house,
+.nav-list .fa-pencil,
+.nav-list .fa-circle-user,
+.nav-list .fa-square-phone-flip,
+.nav-list .fa-file {
+	font-size: 25px;
+	color: var(--contrast-color);
+	opacity: 0.8;
+	text-align: center;
 }
-.nav-list .fa-file{
-        font-size: 25px;
-         color: var(--contrast-color);
-        text-align: center;
 
+.nav-list .fa-house:hover {
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--yellow);
+	cursor: pointer;
+	padding: 10px;
+	margin: -10px;
+	opacity: 1;
 }
-.nav-list .fa-house:hover{
-        color: var(--background-color);
-        margin: 0 auto;
-         border-radius: 50px;
-        background-color: var(--yellow);
-        cursor: pointer;
-        padding: 10px;
-                margin: -10px;
+.nav-list .fa-pencil:hover {
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--blue);
+	cursor: pointer;
+	padding: 10px;
+	margin: -10px;
+	opacity: 1;
 }
-.nav-list .fa-pencil:hover{
-        color: var(--background-color);
-                margin: 0 auto;
-                border-radius: 50px;
-                background-color: var(--blue);
-                cursor: pointer;
-                padding: 10px;
-                        margin: -10px;
+.nav-list .fa-circle-user:hover {
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--orange);
+	cursor: pointer;
+	padding: 10px;
+	margin: -10px;
+	opacity: 1;
 }
-.nav-list .fa-circle-user:hover{
-color: var(--background-color);
-        margin: 0 auto;
-        border-radius: 50px;
-        background-color: var(--orange);
-        cursor: pointer;
-        padding: 10px;
-                margin: -10px;
+.nav-list .fa-file:hover {
+	color: var(--background-color);
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--pink);
+	cursor: pointer;
+	padding: 10px 9px 10px 11px;
+	margin: -10px -9px -10px -15.5px;
+	width: 23px;
+	height: 23px;
+	opacity: 1;
 }
-.nav-list .fa-file:hover{
-color: var(--background-color);
-        color: var(--background-color);
-                margin: 0 auto;
-                border-radius: 50px;
-                background-color: var(--pink);
-                cursor: pointer;
-                padding: 10px 9px 10px 11px;
-                margin: -10px -9px -10px -14.5px;
-                width: 23px;
-                height: 23px;
+.nav-list .fa-square-phone-flip:hover {
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--green);
+	cursor: pointer;
+	padding: 10px;
+	margin: -10px;
+	opacity: 1;
 }
-.nav-list .fa-square-phone-flip:hover{
-color: var(--background-color);
-        margin: 0 auto;
-        border-radius: 50px;
-        background-color: var(--green);
-        cursor: pointer;
-        padding: 10px;
-        margin: -10px;
+.highlight-project.active .fa-pencil {
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--blue);
+	cursor: pointer;
+	padding: 10px;
+	margin: -10px;
 }
-.highlight-project.active .fa-pencil{
-        color: var(--background-color);
-                margin: 0 auto;
-                border-radius: 50px;
-                background-color: var(--blue);
-                cursor: pointer;
-                padding: 10px;
-                margin: -10px;
-         
+.highlight-about.active .fa-circle-user {
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--orange);
+	cursor: pointer;
+	padding: 10px;
+	margin: -10px;
 }
-.highlight-about.active .fa-circle-user{
-        color: var(--background-color);
-                margin: 0 auto;
-                border-radius: 50px;
-                background-color: var(--orange);
-                cursor: pointer;
-                padding: 10px;
-                margin: -10px;
-}
-.highlight-cv.active .fa-file{
-color: var(--background-color);
-        margin: 0 auto;
-        border-radius: 50px;
-        background-color: var(--pink);
-        cursor: pointer;
-        padding: 10px 9px 10px 11px;
-        margin: -10px -10px -10px -14.5px;
-        width: 23px;
-        height: 23px;
+.highlight-cv.active .fa-file {
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--pink);
+	cursor: pointer;
+	padding: 10px 9px 10px 11px;
+	margin: -10px -10px -10px -14.5px;
+	width: 23px;
+	height: 23px;
 }
 .highlight-contact.active .fa-square-phone-flip {
-        color: var(--background-color);
-        margin: 0 auto;
-        border-radius: 50px;
-        background-color: var(--green);
-        cursor: pointer;
-        padding: 10px;
-        margin: -10px;
+	color: var(--background-color);
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: var(--green);
+	cursor: pointer;
+	padding: 10px;
+	margin: -10px;
 }
 @media (max-width: 700px) {
-.nav-bar {
-                width: 100%;
-                height: 12vh;
-                margin: 0 auto;
-                padding: 0px;
-                background-color: transparent;
+	.nav-bar {
+		width: 100%;
+		height: 12vh;
+		margin: 0 auto;
+		padding: 0px;
+		background-color: transparent;
+	}
 
-        }
-        
-                .name-logo {
-                        display: none;
-                }
-        
-                .nav-list {
-                        width: 100%;
-                        list-style: none;
-                        display: flex;
-                        flex-flow: row nowrap;
-                        justify-content: space-around;
-                        margin: 0 auto;
-                        font-family: 'Red Hat Text',
-                                sans-serif;
-                        font-weight: 400;
-                        position: static;
-                        top: 0px;
-                        padding: 0px;
-                
-                }
-        
-                .nav-list li {
-                        margin: 0px;
-                }
-        
-                .nav-list a {
-                        text-decoration: none;
-                        color: rgb(177, 65, 65);
-                        
-                }
-        
-                .nav-list .fa-house,
-                .nav-list .fa-pencil,
-                .nav-list .fa-circle-user,
-                .nav-list .fa-square-phone-flip {
-                        font-size: 20px;
-                        color: var(--contrast-color);
-                        text-align: center;
-        
-                }
-        
-                .nav-list .fa-file {
-                        font-size: 19px;
-                        color: var(--contrast-color);
-                        text-align: center;
-        
-                }
-        
-                      .nav-list .fa-house:hover {
-                              color: var(--background-color);
-                              margin: 0 auto;
-                              border-radius: 50px;
-                              background-color: var(--yellow);
-                              cursor: pointer;
-                              padding: 10px;
-                              margin: -10px;
-                      }
-        
-                      .nav-list .fa-pencil:hover {
-                              color: var(--background-color);
-                              margin: 0 auto;
-                              border-radius: 50px;
-                              background-color: var(--blue);
-                              cursor: pointer;
-                              padding: 10px;
-                              margin: -10px;
-                      }
-        
-                      .nav-list .fa-circle-user:hover {
-                              color: var(--background-color);
-                              margin: 0 auto;
-                              border-radius: 50px;
-                              background-color: var(--orange);
-                              cursor: pointer;
-                              padding: 10px;
-                              margin: -10px;
-                      }
-        
-                      .nav-list .fa-file:hover {
-                              color: var(--background-color);
-                              color: var(--background-color);
-                              margin: 0 auto;
-                              border-radius: 50px;
-                              background-color: var(--pink);
-                              cursor: pointer;
-                              padding: 9px 9px 9px 9px;
-                              margin: -10px -9px -10px -15px;
-                              width: 20px;
-                              height: 20px;
-                      }
-        
-                      .nav-list .fa-square-phone-flip:hover {
-                              color: var(--background-color);
-                              margin: 0 auto;
-                              border-radius: 50px;
-                              background-color: var(--green);
-                              cursor: pointer;
-                              padding: 10px;
-                              margin: -10px;
-                      }
-        
-                .highlight-project.active.fa-pencil {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50%;
-                        background-color: var(--blue);
-                        cursor: pointer;
-                        padding: 5px;
-                        margin: -5px;
-        
-                }
-        
-                .highlight-about.active.fa-circle-user {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50%;
-                        background-color: var(--orange);
-                        cursor: pointer;
-                        padding: 5px;
-                        margin: -5px;
-                }
-        
-       .nav-list .active .fa-file{
-               color: var(--background-color);
-               color: var(--background-color);
-               margin: 0 auto;
-               border-radius: 50px;
-               background-color: var(--pink);
-               cursor: pointer;
-               padding: 9px 9px 9px 9px;
-               margin: -10px -9px -10px -15px;
-               width: 20px;
-               height: 20px;
-       }
-        
-                .highlight-contact.active.fa-square-phone-flip {
-                        color: var(--background-color);
-                        margin: 0 auto;
-                        border-radius: 50%;
-                        background-color: var(--green);
-                        cursor: pointer;
-                        padding: 5px;
-                        margin: -5px;
-                        
-                }
+	.name-logo {
+		display: none;
+	}
+
+	.nav-list {
+		width: 100%;
+		list-style: none;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		margin: 0 auto;
+		font-family: "Red Hat Text", sans-serif;
+		font-weight: 400;
+		position: static;
+		top: 0px;
+		padding: 0px;
+	}
+
+	.nav-list li {
+		margin: 0px;
+	}
+
+	.nav-list a {
+		text-decoration: none;
+		color: rgb(177, 65, 65);
+	}
+
+	.nav-list .fa-house,
+	.nav-list .fa-pencil,
+	.nav-list .fa-circle-user,
+	.nav-list .fa-square-phone-flip {
+		font-size: 20px;
+		color: var(--contrast-color);
+		text-align: center;
+	}
+
+	.nav-list .fa-file {
+		font-size: 19px;
+		color: var(--contrast-color);
+		text-align: center;
+	}
+
+	.nav-list .fa-house:hover {
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50px;
+		background-color: var(--yellow);
+		cursor: pointer;
+		padding: 10px;
+		margin: -10px;
+	}
+
+	.nav-list .fa-pencil:hover {
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50px;
+		background-color: var(--blue);
+		cursor: pointer;
+		padding: 10px;
+		margin: -10px;
+	}
+
+	.nav-list .fa-circle-user:hover {
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50px;
+		background-color: var(--orange);
+		cursor: pointer;
+		padding: 10px;
+		margin: -10px;
+	}
+
+	.nav-list .fa-file:hover {
+		color: var(--background-color);
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50px;
+		background-color: var(--pink);
+		cursor: pointer;
+		padding: 9px 9px 9px 9px;
+		margin: -10px -9px -10px -15px;
+		width: 20px;
+		height: 20px;
+	}
+
+	.nav-list .fa-square-phone-flip:hover {
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50px;
+		background-color: var(--green);
+		cursor: pointer;
+		padding: 10px;
+		margin: -10px;
+	}
+
+	.highlight-project.active.fa-pencil {
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50%;
+		background-color: var(--blue);
+		cursor: pointer;
+		padding: 5px;
+		margin: -5px;
+	}
+
+	.highlight-about.active.fa-circle-user {
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50%;
+		background-color: var(--orange);
+		cursor: pointer;
+		padding: 5px;
+		margin: -5px;
+	}
+
+	.nav-list .active .fa-file {
+		color: var(--background-color);
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50px;
+		background-color: var(--pink);
+		cursor: pointer;
+		padding: 9px 9px 9px 9px;
+		margin: -10px -9px -10px -15px;
+		width: 20px;
+		height: 20px;
+	}
+
+	.highlight-contact.active.fa-square-phone-flip {
+		color: var(--background-color);
+		margin: 0 auto;
+		border-radius: 50%;
+		background-color: var(--green);
+		cursor: pointer;
+		padding: 5px;
+		margin: -5px;
+	}
 }

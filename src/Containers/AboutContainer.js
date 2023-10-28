@@ -1,17 +1,17 @@
-import React from 'react'
-import NavBar from '../Components/NavBar';
-import './AboutContainer.css';
-import bristol from '../media/bristol.jpg';
-import prompt from '../media/bristolprompt.jpeg';
-import lighting from '../media/lightingdesk.jpg';
-import Footer from '../Components/Footer';
+import React from "react";
+import NavBar from "../Components/NavBar";
+import "./AboutContainer.css";
+import bristol from "../media/bristol.jpg";
+import prompt from "../media/bristolprompt.jpeg";
+import lighting from "../media/lightingdesk.jpg";
+import Footer from "../Components/Footer";
 
 const AboutContainer = () => {
-  return (
+	return (
 		<div className="about-container">
 			<NavBar />
 			<div className="about-body">
-				<div className='header'>
+				<div className="header">
 					<h1>About Me</h1>
 				</div>
 				<div className="about-text-one">
@@ -62,6 +62,6 @@ const AboutContainer = () => {
 			<Footer />
 		</div>
 	);
-}
+};
 
 export default AboutContainer;

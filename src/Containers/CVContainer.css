@@ -10,377 +10,351 @@ font-family: 'Red Hat Text',
 sans-serif; */
 
 :root {
-        --contrast-color: rgb(18, 18, 18);
-        --background-color: rgb(253, 253, 255);
-        --blue: rgb(102, 153, 184);
-        --pink: rgb(189, 61, 78);
-        --orange: rgb(216, 115, 57);
-        --green: rgb(111, 181, 118);
-        --yellow: rgb(243, 203, 45);
-
-
+	--contrast-color: rgb(18, 18, 18);
+	--background-color: rgb(253, 253, 255);
+	--blue: rgb(102, 153, 184);
+	--pink: rgb(189, 61, 78);
+	--orange: rgb(216, 115, 57);
+	--green: rgb(111, 181, 118);
+	--yellow: rgb(243, 203, 45);
 }
 
-
-.cv-container{
-        background-color: var(--background-color);
-        height: 100vh;
-        width: 100%;
-        font-family: 'Poppins', sans-serif;
-
+.cv-container {
+	background-color: var(--background-color);
+	height: 100vh;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
 }
-@keyframes cv-body{
-        0% {
-                opacity: 0%;
-        }
+@keyframes cv-body {
+	0% {
+		opacity: 0%;
+	}
 
-        100% {
-                opacity: 100%;
-        }
+	100% {
+		opacity: 100%;
+	}
 }
-.cv-body{
-        animation-name: cv-body;
-                animation-duration: 2s;
+.cv-body {
+	animation-name: cv-body;
+	animation-duration: 2s;
 }
 .header-and-download {
-        width: 90%;
-        margin: auto;
-        display: flex;
-        flex-flow: row;
-        align-items: center;
-        padding-bottom: 30px;
-
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	padding-bottom: 30px;
 }
 
-.download-link-container{
-        width: 90%;
-        margin: 0 auto;
-        display:flex;
-        flex-flow: column nowrap;
-        justify-content: flex-end;
-        position: absolute;
-        z-index: 3;
+.download-link-container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end;
+	position: absolute;
+	z-index: 3;
 }
 .pdf-link {
-        color: var(--contrast-color);
-        font-weight: 500;
-        width: 100%;
-        text-align: right;
-        
+	color: var(--contrast-color);
+	font-weight: 500;
+	width: 100%;
+	text-align: right;
 }
 .pdf-link .download-icon {
-        color: var(--pink);
-        font-size: 30px;
-        opacity: 0.9;
+	color: var(--pink);
+	font-size: 30px;
+	opacity: 0.9;
 }
-.pdf-link .download-icon:hover{
-        opacity: 1;
-        color: rgb(123, 117, 117);
+.pdf-link .download-icon:hover {
+	opacity: 1;
+	color: rgb(123, 117, 117);
 }
 
 .cv-body h1 {
-        color: var(--pink);
-        font-weight: 200;
-        font-size: 60px;
-        text-align: center;
-        margin: 0 auto;
-        padding: 10px;
-
+	color: var(--pink);
+	font-weight: 200;
+	font-size: 60px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
 }
-.row-one-container, .row-two-container{
-        width: 90%;
-        display: flex;
-        flex-flow: row nowrap;
-        text-align: center;
-        margin: 10px;
-        margin: 0 auto;
-
+.row-one-container,
+.row-two-container {
+	width: 90%;
+	display: flex;
+	flex-flow: row nowrap;
+	text-align: center;
+	margin: 10px;
+	margin: 0 auto;
 }
-.coding-experience-section, .education-section{
-        padding: 20px;
-        background-color: rgb(238, 238, 238);
-        border-radius: 10px;
-        margin: 0 auto;
-        margin-bottom: 20px;  
-
-}
-
-
-
-.coding-experience h4, .education h4{
-        color: var(--contrast-color);
-        margin: 5px 5px 15px 5px;
-        font-size: 17px;
-        font-weight: 600;
+.coding-experience-section,
+.education-section {
+	padding: 20px;
+	background-color: rgb(238, 238, 238);
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
- .row-one-container ul{
-        margin: 0 auto;
-        padding: 15px;
-        line-height: 30px;
-        text-align: left;
-        list-style: none;
-        color: var(--contrast-color);
-
-       
-}
-.coding-experience{
-        width: 75%;
-        margin: 0 auto;
-        margin-right: 10px;
+.coding-experience h4,
+.education h4 {
+	color: var(--contrast-color);
+	margin: 5px 5px 15px 5px;
+	font-size: 17px;
+	font-weight: 600;
 }
 
-.row-one-container h3, .certificates h3, .education h3 {
-        font-weight: 500;
-        color: rgba(189, 61, 78, 0.7);
-        font-size: 22px;
-        text-align: center;
+.row-one-container ul {
+	margin: 0 auto;
+	padding: 15px;
+	line-height: 30px;
+	text-align: left;
+	list-style: none;
+	color: var(--contrast-color);
+}
+.coding-experience {
+	width: 75%;
+	margin: 0 auto;
+	margin-right: 10px;
 }
 
-.languages{
-        width: 25%;
-        margin-left: 10px;
-        
-        
-        
+.row-one-container h3,
+.certificates h3,
+.education h3 {
+	font-weight: 500;
+	color: rgba(189, 61, 78, 0.7);
+	font-size: 22px;
+	text-align: center;
+}
+
+.languages {
+	width: 25%;
+	margin-left: 10px;
 }
 .tools {
-        width: 100%;
-        margin-top: 30px;
-
+	width: 100%;
+	margin-top: 30px;
 }
- .tools-section, .languages-section{
-        width: 100%;
-        margin: 0 auto;
-        background-color: rgb(238, 238, 238);
-        border-radius: 10px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
+.tools-section,
+.languages-section {
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgb(238, 238, 238);
+	border-radius: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .logo-row {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
-.languages-section img{
-        max-width: 50px;
-        max-height: 50px;
-        margin: 30px 20px 20px 20px;
+.languages-section img {
+	max-width: 50px;
+	max-height: 50px;
+	margin: 30px 20px 20px 20px;
 }
-.tools-section img{
-        max-width: 40px;
-                max-height: 40px;
-                margin: 25px 35px 15px 35px;
+.tools-section img {
+	max-width: 40px;
+	max-height: 40px;
+	margin: 25px 35px 15px 35px;
 }
-
 
 .certificates {
-        margin: 0 auto;
-        width: 65%;
-        margin-right: 10px;
+	margin: 0 auto;
+	width: 65%;
+	margin-right: 10px;
 }
 
-.certificates img{
-        width: 280px;
-        height: 200px;
-        margin: 5px;
-        padding: 15px 10px 15px 10px;
+.certificates img {
+	width: 280px;
+	height: 200px;
+	margin: 5px;
+	padding: 15px 10px 15px 10px;
 }
 .cert-images {
-        width: 100%;
-        margin: 0 auto;
-        margin-top: 10px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        background-color: rgb(238, 238, 238);
-        border-radius: 10px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	background-color: rgb(238, 238, 238);
+	border-radius: 10px;
 }
-.education{
-        width: 45%;
-        margin-left: 10px;
+.education {
+	width: 45%;
+	margin-left: 10px;
 }
 .education ul {
-        list-style: none;
-        text-align: center;
-        padding: 0px;
+	list-style: none;
+	text-align: center;
+	padding: 0px;
 }
 
-
-
-
 @media (max-width: 600px) {
-        .cv-container {
-                        background-color: var(--background-color);
-                        height: 100vh;
-                        width: 100%;
-                        font-family: 'Poppins', sans-serif;
-        
-                }
-        
-                @keyframes cv-body {
-                        0% {
-                                opacity: 0%;
-                        }
-        
-                        100% {
-                                opacity: 100%;
-                        }
-                }
-        
-                .cv-body {
-                        animation-name: cv-body;
-                        animation-duration: 2s;
-                        margin-top: 30px;
-                }
-        
-                .cv-body h1 {
-                        color: var(--pink);
-                        font-weight: 600;
-                        font-size: 30px;
-                        text-align: center;
-                        margin: 0 auto;
-                        padding: 10px;
-        
-                }
-        
-                .row-one-container,
-                .row-two-container {
-                        width: 100%;
-                        display: flex;
-                        flex-flow: column nowrap;
-                        text-align: center;
-                        align-items: center;
-                        margin: 10px;
-                        margin: 0 auto;
-        
-                }
-        
-                .coding-experience-section,
-                .education-section {
-                        padding: 20px;
-                        background-color: rgb(238, 238, 238);
-                        border-radius: 10px;
-                        margin: 0 auto;
-                        margin-bottom: 20px;
-        
-                }
-        
-                .coding-experience h4,
-                .education h4 {
-                        color: var(--contrast-color);
-                        margin: 5px 5px 15px 5px;
-                        font-size: 17px;
-                        font-weight: 600;
-                }
-        
-                .row-one-container ul {
-                        margin: 0 auto;
-                        padding: 5px;
-                        line-height: 30px;
-                        text-align: left;
-                        list-style: none;
-                        color: var(--contrast-color);
-        
-        
-                }
-        
-                .coding-experience {
-                        width: 90%;
-                        margin: 0 auto;
-                }
-        
-                .row-one-container h3,
-                .certificates h3,
-                .education h3 {
-                        font-weight: 500;
-                        color: rgba(189, 61, 78, 0.7);
-                        font-size: 22px;
-                        text-align: center;
-                }
-        
-                .languages {
-                        width: 90%;
-                        margin-left: 0px;
-        
-        
-        
-                }
-        
-                .tools {
-                        width: 100%;
-                        margin-top: 30px;
-        
-                }
-        
-                .tools-section,
-                .languages-section {
-                        width: 100%;
-                        margin: 0 auto;
-                        background-color: rgb(238, 238, 238);
-                        border-radius: 10px;
-                        display: flex;
-                        flex-flow: row wrap;
-                        justify-content: space-evenly;
-                        align-items: center;
-                }
-        
-                .logo-row {
-                        display: flex;
-                        flex-flow: row wrap;
-                        justify-content: space-evenly;
-                        align-items: center;
-                }
-        
-                .languages-section img {
-                        max-width: 50px;
-                        max-height: 50px;
-                        margin: 30px 20px 20px 20px;
-                }
-        
-                .tools-section img {
-                        max-width: 40px;
-                        max-height: 40px;
-                        margin: 25px 35px 15px 35px;
-                }
-        
-        
-                .certificates {
-                        margin: 0 auto;
-                        width: 90%;
-                }
-        
-                .certificates img {
-                        width: 40%;
-                        height: 25%;
-                        margin: 5px;
-                        padding: 15px 10px 15px 10px;
-                }
-        
-                .cert-images {
-                        width: 100%;
-                        margin: 0 auto;
-                        margin-top: 10px;
-                        display: flex;
-                        flex-flow: row wrap;
-                        justify-content: center;
-                        background-color: rgb(238, 238, 238);
-                        border-radius: 10px;
-                }
-        
-                .education {
-                        width: 90%;
-                        margin-left: 0px;
-                }
-        
-                .education ul {
-                        list-style: none;
-                        text-align: center;
-                        padding: 0px;
-                }
+	.cv-container {
+		background-color: var(--background-color);
+		height: 100vh;
+		width: 100%;
+		font-family: "Poppins", sans-serif;
+	}
+
+	@keyframes cv-body {
+		0% {
+			opacity: 0%;
+		}
+
+		100% {
+			opacity: 100%;
+		}
+	}
+
+	.cv-body {
+		animation-name: cv-body;
+		animation-duration: 2s;
+		margin-top: 30px;
+	}
+
+	.cv-body h1 {
+		color: var(--pink);
+		font-weight: 600;
+		font-size: 30px;
+		text-align: center;
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	.row-one-container,
+	.row-two-container {
+		width: 100%;
+		display: flex;
+		flex-flow: column nowrap;
+		text-align: center;
+		align-items: center;
+		margin: 10px;
+		margin: 0 auto;
+	}
+
+	.coding-experience-section,
+	.education-section {
+		padding: 20px;
+		background-color: rgb(238, 238, 238);
+		border-radius: 10px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.coding-experience h4,
+	.education h4 {
+		color: var(--contrast-color);
+		margin: 5px 5px 15px 5px;
+		font-size: 17px;
+		font-weight: 600;
+	}
+
+	.row-one-container ul {
+		margin: 0 auto;
+		padding: 5px;
+		line-height: 30px;
+		text-align: left;
+		list-style: none;
+		color: var(--contrast-color);
+	}
+
+	.coding-experience {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.row-one-container h3,
+	.certificates h3,
+	.education h3 {
+		font-weight: 500;
+		color: rgba(189, 61, 78, 0.7);
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.languages {
+		width: 90%;
+		margin-left: 0px;
+	}
+
+	.tools {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.tools-section,
+	.languages-section {
+		width: 100%;
+		margin: 0 auto;
+		background-color: rgb(238, 238, 238);
+		border-radius: 10px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.logo-row {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.languages-section img {
+		max-width: 50px;
+		max-height: 50px;
+		margin: 30px 20px 20px 20px;
+	}
+
+	.tools-section img {
+		max-width: 40px;
+		max-height: 40px;
+		margin: 25px 35px 15px 35px;
+	}
+
+	.certificates {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.certificates img {
+		width: 40%;
+		height: 25%;
+		margin: 5px;
+		padding: 15px 10px 15px 10px;
+	}
+
+	.cert-images {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 10px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		background-color: rgb(238, 238, 238);
+		border-radius: 10px;
+	}
+
+	.education {
+		width: 90%;
+		margin-left: 0px;
+	}
+
+	.education ul {
+		list-style: none;
+		text-align: center;
+		padding: 0px;
+	}
 }

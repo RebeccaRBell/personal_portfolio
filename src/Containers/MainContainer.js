@@ -1,15 +1,14 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import AboutContainer from './AboutContainer';
-import ContactContainer from './ContactContainer';
-import ProjectContainer from './ProjectContainer';
-import HomepageContainer from './HomepageContainer';
-import CVContainer from './CVContainer';
-import './MainContainer.css';
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AboutContainer from "./AboutContainer";
+import ContactContainer from "./ContactContainer";
+import ProjectContainer from "./ProjectContainer";
+import HomepageContainer from "./HomepageContainer";
+import CVContainer from "./CVContainer";
+import "./MainContainer.css";
 
 const MainContainer = () => {
-  return (
+	return (
 		<div className="main-container">
 			<Router>
 				<Routes>
@@ -22,6 +21,6 @@ const MainContainer = () => {
 			</Router>
 		</div>
 	);
-}
+};
 
 export default MainContainer;

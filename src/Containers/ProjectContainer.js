@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import "./ProjectContainer.css";
@@ -6,18 +6,17 @@ import python from "../media/python.mp4";
 import smeco from "../media/smeco.mp4";
 import summit from "../media/summit.mp4";
 import github from "../media/github.svg";
-import weather from '../media/weather.mp4';
+import weather from "../media/weather.mp4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectContainer = () => {
-
 	const [autoplay, setAutoplay] = useState(false);
 
-
-		useEffect(() => {
-			autoplaySettings();
-		}, []);
+	useEffect(() => {
+		autoplaySettings();
+	}, []);
 
 	const autoplaySettings = () => {
 		if (window.innerWidth <= 800) {
@@ -25,15 +24,14 @@ const ProjectContainer = () => {
 		} else {
 			setAutoplay(true);
 		}
-	}
-
+	};
 
 	return (
 		<div className="project-container">
 			<NavBar />
 			<div className="project-body">
-			<div className="header">
-				<h1>Projects</h1>
+				<div className="header">
+					<h1>Projects</h1>
 				</div>
 				<div className="projects">
 					<div className="project">
@@ -82,21 +80,14 @@ const ProjectContainer = () => {
 											target="_blank"
 											rel="noreferrer"
 										>
-											<img src={github} alt="github logo" />
+											<FontAwesomeIcon icon={faGithub} />
 										</a>
 										<a
 											href="https://www.linkedin.com/feed/update/urn:li:activity:7058013682324131840/"
 											target="_blank"
 											rel="noreferrer"
 										>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="24"
-												height="24"
-												viewBox="0 0 24 24"
-											>
-												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-											</svg>
+											<FontAwesomeIcon icon={faLinkedin} />
 										</a>
 									</div>
 								</div>
@@ -104,7 +95,7 @@ const ProjectContainer = () => {
 						</div>
 					</div>
 					<div className="project">
-						<div className="project-two">
+						<div className="project-two smeco-project">
 							<div className="project-two-header">
 								<h3>smeco - Environmental Education App</h3>
 							</div>
@@ -144,21 +135,14 @@ const ProjectContainer = () => {
 											target="_blank"
 											rel="noreferrer"
 										>
-											<img src={github} alt="github logo" />
+											<FontAwesomeIcon icon={faGithub} />
 										</a>
 										<a
 											href="https://www.linkedin.com/posts/rebeccarbell_javascript-mongodb-expressjs-activity-7044000751215374336-saMt?utm_source=share&utm_medium=member_desktop"
 											target="_blank"
 											rel="noreferrer"
 										>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="24"
-												height="24"
-												viewBox="0 0 24 24"
-											>
-												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-											</svg>
+											<FontAwesomeIcon icon={faLinkedin} />
 										</a>
 									</div>
 								</div>
@@ -167,7 +151,7 @@ const ProjectContainer = () => {
 						</div>
 					</div>
 					<div className="project">
-						<div className="project-one">
+						<div className="project-one travel-project">
 							<div className="project-one-header">
 								<h3>Travel Bucket List App</h3>
 							</div>
@@ -198,21 +182,14 @@ const ProjectContainer = () => {
 											target="_blank"
 											rel="noreferrer"
 										>
-											<img src={github} alt="github logo" />
+											<FontAwesomeIcon icon={faGithub} />
 										</a>
 										<a
 											href="https://www.linkedin.com/posts/rebeccarbell_python-flask-juniordev-activity-7041837320483807232-pibi?utm_source=share&utm_medium=member_desktop"
 											target="_blank"
 											rel="noreferrer"
 										>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="24"
-												height="24"
-												viewBox="0 0 24 24"
-											>
-												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-											</svg>
+											<FontAwesomeIcon icon={faLinkedin} />
 										</a>
 									</div>
 								</div>
@@ -228,8 +205,8 @@ const ProjectContainer = () => {
 								<div className="project-two-text weather-text">
 									<h4>React | OpenWeather API</h4>
 									<p>
-										This app was originally created during my time
-										studying with SheCodes on their React course.
+										This app was originally created during my time studying with
+										SheCodes on their React course.
 										<br />
 										After graduating from CodeClan I decided to give the project
 										a refresh and restyle to update it with what I'd learned
@@ -260,21 +237,14 @@ const ProjectContainer = () => {
 											target="_blank"
 											rel="noreferrer"
 										>
-											<img src={github} alt="github logo" />
+											<FontAwesomeIcon icon={faGithub} />
 										</a>
 										<a
 											href="https://www.linkedin.com/feed/update/urn:li:activity:7064277262849720320/"
 											target="_blank"
 											rel="noreferrer"
 										>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="24"
-												height="24"
-												viewBox="0 0 24 24"
-											>
-												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-											</svg>
+											<FontAwesomeIcon icon={faLinkedin} />
 										</a>
 										<a
 											href="https://beccas-weather-app.netlify.app"
