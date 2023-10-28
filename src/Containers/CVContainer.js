@@ -54,9 +54,22 @@ const CVContainer = () => {
 							<h4>Software Engineer - Curaleaf International</h4>
 							<p>Aug 2023 - Current</p>
 							<ul>
-								<li> - Full-stack software engineering role working with various tech stacks across multiple applications</li>
-								<li> - Working with languages and libraries include Typescript, React, Python, Quart , Javascript and Firebase</li>
-								<li> - Tasks include updating, maintaining and building of new features to both the staff-facing and patient-facing applications</li>
+								<li>
+									{" "}
+									- Full-stack software engineering role working with various
+									tech stacks across multiple applications
+								</li>
+								<li>
+									{" "}
+									- Working with languages, frameworks and libraries include
+									Typescript, React, Python, Quart , Javascript and Firebase
+								</li>
+								<li>
+									{" "}
+									- Tasks include updating, maintaining and building of new
+									features to both the staff-facing and patient-facing
+									applications
+								</li>
 							</ul>
 						</div>
 						<div className="coding-experience-section">
