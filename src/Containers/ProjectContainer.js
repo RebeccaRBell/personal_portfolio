@@ -5,7 +5,6 @@ import "./ProjectContainer.css";
 import python from "../media/python.mp4";
 import smeco from "../media/smeco.mp4";
 import summit from "../media/summit.mp4";
-import github from "../media/github.svg";
 import weather from "../media/weather.mp4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";

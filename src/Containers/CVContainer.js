@@ -11,7 +11,7 @@ import pythonlogo from "../media/pythonlogo.png";
 import jslogo from "../media/jslogo.png";
 import reactlogo from "../media/reactlog.png";
 import javalogo from "../media/javalogo.png";
-import github from "../media/github.png";
+import github from "../media/github.svg";
 import git from "../media/git.png";
 import bootstrap from "../media/bootstrap.png";
 import idea from "../media/idea.png";
